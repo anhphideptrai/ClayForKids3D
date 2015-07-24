@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Duc Thien. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface Utils : NSObject
 + (NSString *)documentsPathForFileName:(NSString *)name;

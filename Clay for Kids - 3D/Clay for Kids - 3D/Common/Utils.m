@@ -34,8 +34,8 @@
 }
 + (void)showAlertWithError:(NSError*)err{
     NSString *descriptionErr = [self getErrorString:err];
-//    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:descriptionErr message:nil delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-//    [alert show];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:descriptionErr message:nil delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
 }
 + (NSString *)getErrorString:(NSError *)err {
     NSString *descriptionErr = err.localizedFailureReason?err.localizedFailureReason:err.localizedDescription;
