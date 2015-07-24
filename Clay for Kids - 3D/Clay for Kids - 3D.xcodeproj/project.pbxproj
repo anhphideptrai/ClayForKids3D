@@ -11,7 +11,6 @@
 		B28204DF1B622642003F3481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B28204DE1B622642003F3481 /* main.m */; };
 		B28204E21B622642003F3481 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B28204E11B622642003F3481 /* AppDelegate.m */; };
 		B28204E51B622642003F3481 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28204E41B622642003F3481 /* ViewController.m */; };
-		B28204E81B622642003F3481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28204E61B622642003F3481 /* Main.storyboard */; };
 		B28204EA1B622642003F3481 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28204E91B622642003F3481 /* Images.xcassets */; };
 		B28204ED1B622642003F3481 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B28204EB1B622642003F3481 /* LaunchScreen.xib */; };
 		B28205071B622D74003F3481 /* ConfigApp.m in Sources */ = {isa = PBXBuildFile; fileRef = B28205031B622D74003F3481 /* ConfigApp.m */; };
@@ -151,6 +150,8 @@
 		B28206211B623851003F3481 /* 003_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B28205A31B623850003F3481 /* 003_icon.png */; };
 		B28206221B623851003F3481 /* 004_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B28205A41B623851003F3481 /* 004_icon.png */; };
 		B28206231B623851003F3481 /* 005_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B28205A51B623851003F3481 /* 005_icon.png */; };
+		B2FDDF7B1B623BF200CB8735 /* SplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF7A1B623BF200CB8735 /* SplashScreenViewController.xib */; };
+		B2FDDF7E1B623C1A00CB8735 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FDDF7D1B623C1A00CB8735 /* SplashScreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -164,7 +165,6 @@
 		B28204E11B622642003F3481 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B28204E31B622642003F3481 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B28204E41B622642003F3481 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B28204E71B622642003F3481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B28204E91B622642003F3481 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B28204EC1B622642003F3481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B28205031B622D74003F3481 /* ConfigApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigApp.m; path = Entry/ConfigApp.m; sourceTree = "<group>"; };
@@ -314,6 +314,9 @@
 		B28205A31B623850003F3481 /* 003_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 003_icon.png; path = Resource/Icon/003_icon.png; sourceTree = "<group>"; };
 		B28205A41B623851003F3481 /* 004_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 004_icon.png; path = Resource/Icon/004_icon.png; sourceTree = "<group>"; };
 		B28205A51B623851003F3481 /* 005_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 005_icon.png; path = Resource/Icon/005_icon.png; sourceTree = "<group>"; };
+		B2FDDF7A1B623BF200CB8735 /* SplashScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashScreenViewController.xib; path = Xib/SplashScreenViewController.xib; sourceTree = "<group>"; };
+		B2FDDF7C1B623C1A00CB8735 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		B2FDDF7D1B623C1A00CB8735 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,13 +371,13 @@
 		B28204DB1B622642003F3481 /* Clay for Kids - 3D */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF791B623BB700CB8735 /* Xib */,
 				B28205121B622DEA003F3481 /* Proccessing */,
 				B282050A1B622D8F003F3481 /* Common */,
 				B28205091B622D7D003F3481 /* ViewControllers */,
 				B28205021B622D5A003F3481 /* Entry */,
 				B28204E01B622642003F3481 /* AppDelegate.h */,
 				B28204E11B622642003F3481 /* AppDelegate.m */,
-				B28204E61B622642003F3481 /* Main.storyboard */,
 				B28204E91B622642003F3481 /* Images.xcassets */,
 				B28204EB1B622642003F3481 /* LaunchScreen.xib */,
 				B28204DC1B622642003F3481 /* Supporting Files */,
@@ -413,6 +416,8 @@
 		B28205091B622D7D003F3481 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF7C1B623C1A00CB8735 /* SplashScreenViewController.h */,
+				B2FDDF7D1B623C1A00CB8735 /* SplashScreenViewController.m */,
 				B28204E31B622642003F3481 /* ViewController.h */,
 				B28204E41B622642003F3481 /* ViewController.m */,
 			);
@@ -583,6 +588,14 @@
 			name = Icon;
 			sourceTree = "<group>";
 		};
+		B2FDDF791B623BB700CB8735 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				B2FDDF7A1B623BF200CB8735 /* SplashScreenViewController.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -669,7 +682,6 @@
 				B28205E31B623851003F3481 /* 066_icon.png in Resources */,
 				B28205AC1B623851003F3481 /* 122_icon.png in Resources */,
 				B28206211B623851003F3481 /* 003_icon.png in Resources */,
-				B28204E81B622642003F3481 /* Main.storyboard in Resources */,
 				B28205D31B623851003F3481 /* 078_icon.png in Resources */,
 				B28205B01B623851003F3481 /* 114_icon.png in Resources */,
 				B28205D71B623851003F3481 /* 073_icon.png in Resources */,
@@ -746,6 +758,7 @@
 				B28205DA1B623851003F3481 /* 076_icon.png in Resources */,
 				B282061B1B623851003F3481 /* 009_icon.png in Resources */,
 				B28206021B623851003F3481 /* 030_icon.png in Resources */,
+				B2FDDF7B1B623BF200CB8735 /* SplashScreenViewController.xib in Resources */,
 				B28206111B623851003F3481 /* 020_icon.png in Resources */,
 				B28205A61B623851003F3481 /* 126_icon.png in Resources */,
 				B28205D51B623851003F3481 /* 080_icon.png in Resources */,
@@ -819,6 +832,7 @@
 				B28204E51B622642003F3481 /* ViewController.m in Sources */,
 				B28205071B622D74003F3481 /* ConfigApp.m in Sources */,
 				B28205111B622DB9003F3481 /* ConfigManager.m in Sources */,
+				B2FDDF7E1B623C1A00CB8735 /* SplashScreenViewController.m in Sources */,
 				B28204E21B622642003F3481 /* AppDelegate.m in Sources */,
 				B28205101B622DB9003F3481 /* Utils.m in Sources */,
 				B28205221B622EF4003F3481 /* ClayStep.m in Sources */,
@@ -833,14 +847,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B28204E61B622642003F3481 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B28204E71B622642003F3481 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B28204EB1B622642003F3481 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -943,7 +949,7 @@
 				INFOPLIST_FILE = "Clay for Kids - 3D/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -956,7 +962,7 @@
 				INFOPLIST_FILE = "Clay for Kids - 3D/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

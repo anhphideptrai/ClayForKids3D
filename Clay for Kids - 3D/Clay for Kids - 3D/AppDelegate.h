@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DownloadManager.h"
+#import "ConfigApp.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) NSArray *moreApps;
+@property (strong, nonatomic) ConfigApp *config;
+@property (strong, nonatomic) DownloadManager *downloadManager;
 
 @end
 
