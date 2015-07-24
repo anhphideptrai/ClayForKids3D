@@ -14,6 +14,17 @@
 		B28204E81B622642003F3481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B28204E61B622642003F3481 /* Main.storyboard */; };
 		B28204EA1B622642003F3481 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28204E91B622642003F3481 /* Images.xcassets */; };
 		B28204ED1B622642003F3481 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B28204EB1B622642003F3481 /* LaunchScreen.xib */; };
+		B28205071B622D74003F3481 /* ConfigApp.m in Sources */ = {isa = PBXBuildFile; fileRef = B28205031B622D74003F3481 /* ConfigApp.m */; };
+		B28205081B622D74003F3481 /* MoreApp.m in Sources */ = {isa = PBXBuildFile; fileRef = B28205051B622D74003F3481 /* MoreApp.m */; };
+		B28205101B622DB9003F3481 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = B282050D1B622DB9003F3481 /* Utils.m */; };
+		B28205111B622DB9003F3481 /* ConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B282050E1B622DB9003F3481 /* ConfigManager.m */; };
+		B28205171B622DF8003F3481 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B28205131B622DF8003F3481 /* DownloadManager.m */; };
+		B28205181B622DF8003F3481 /* SQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B28205141B622DF8003F3481 /* SQLiteManager.m */; };
+		B282051C1B622EA4003F3481 /* Clay.m in Sources */ = {isa = PBXBuildFile; fileRef = B282051B1B622EA4003F3481 /* Clay.m */; };
+		B282051F1B622EC1003F3481 /* ClayGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B282051E1B622EC1003F3481 /* ClayGroup.m */; };
+		B28205221B622EF4003F3481 /* ClayStep.m in Sources */ = {isa = PBXBuildFile; fileRef = B28205211B622EF4003F3481 /* ClayStep.m */; };
+		B28205241B623520003F3481 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B28205231B623520003F3481 /* libsqlite3.0.dylib */; };
+		B28205261B62359C003F3481 /* Clay_Everything.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B28205251B62359C003F3481 /* Clay_Everything.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +41,27 @@
 		B28204E71B622642003F3481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B28204E91B622642003F3481 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B28204EC1B622642003F3481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B28205031B622D74003F3481 /* ConfigApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigApp.m; path = Entry/ConfigApp.m; sourceTree = "<group>"; };
+		B28205041B622D74003F3481 /* ConfigApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigApp.h; path = Entry/ConfigApp.h; sourceTree = "<group>"; };
+		B28205051B622D74003F3481 /* MoreApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoreApp.m; path = Entry/MoreApp.m; sourceTree = "<group>"; };
+		B28205061B622D74003F3481 /* MoreApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoreApp.h; path = Entry/MoreApp.h; sourceTree = "<group>"; };
+		B282050B1B622DB9003F3481 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Common/Constants.h; sourceTree = "<group>"; };
+		B282050C1B622DB9003F3481 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Common/Utils.h; sourceTree = "<group>"; };
+		B282050D1B622DB9003F3481 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Common/Utils.m; sourceTree = "<group>"; };
+		B282050E1B622DB9003F3481 /* ConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigManager.m; path = Common/ConfigManager.m; sourceTree = "<group>"; };
+		B282050F1B622DB9003F3481 /* ConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigManager.h; path = Common/ConfigManager.h; sourceTree = "<group>"; };
+		B28205131B622DF8003F3481 /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadManager.m; path = Proccessing/DownloadManager.m; sourceTree = "<group>"; };
+		B28205141B622DF8003F3481 /* SQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SQLiteManager.m; path = Proccessing/SQLiteManager.m; sourceTree = "<group>"; };
+		B28205151B622DF8003F3481 /* SQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SQLiteManager.h; path = Proccessing/SQLiteManager.h; sourceTree = "<group>"; };
+		B28205161B622DF8003F3481 /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManager.h; path = Proccessing/DownloadManager.h; sourceTree = "<group>"; };
+		B282051A1B622EA4003F3481 /* Clay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Clay.h; path = Entry/Clay.h; sourceTree = "<group>"; };
+		B282051B1B622EA4003F3481 /* Clay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Clay.m; path = Entry/Clay.m; sourceTree = "<group>"; };
+		B282051D1B622EC1003F3481 /* ClayGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClayGroup.h; path = Entry/ClayGroup.h; sourceTree = "<group>"; };
+		B282051E1B622EC1003F3481 /* ClayGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClayGroup.m; path = Entry/ClayGroup.m; sourceTree = "<group>"; };
+		B28205201B622EF4003F3481 /* ClayStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClayStep.h; path = Entry/ClayStep.h; sourceTree = "<group>"; };
+		B28205211B622EF4003F3481 /* ClayStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClayStep.m; path = Entry/ClayStep.m; sourceTree = "<group>"; };
+		B28205231B623520003F3481 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		B28205251B62359C003F3481 /* Clay_Everything.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = Clay_Everything.sqlite; path = Resource/DB/Clay_Everything.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28205241B623520003F3481 /* libsqlite3.0.dylib in Frameworks */,
 				2548A4AE139A8F21B516B02E /* libPods-Clay for Kids - 3D.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +89,7 @@
 		858494965594CE9991F5E6E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B28205231B623520003F3481 /* libsqlite3.0.dylib */,
 				2F5B98292869F8CCF685DAA6 /* libPods-Clay for Kids - 3D.a */,
 			);
 			name = Frameworks;
@@ -82,10 +116,12 @@
 		B28204DB1B622642003F3481 /* Clay for Kids - 3D */ = {
 			isa = PBXGroup;
 			children = (
+				B28205121B622DEA003F3481 /* Proccessing */,
+				B282050A1B622D8F003F3481 /* Common */,
+				B28205091B622D7D003F3481 /* ViewControllers */,
+				B28205021B622D5A003F3481 /* Entry */,
 				B28204E01B622642003F3481 /* AppDelegate.h */,
 				B28204E11B622642003F3481 /* AppDelegate.m */,
-				B28204E31B622642003F3481 /* ViewController.h */,
-				B28204E41B622642003F3481 /* ViewController.m */,
 				B28204E61B622642003F3481 /* Main.storyboard */,
 				B28204E91B622642003F3481 /* Images.xcassets */,
 				B28204EB1B622642003F3481 /* LaunchScreen.xib */,
@@ -97,10 +133,68 @@
 		B28204DC1B622642003F3481 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B28205191B622E5B003F3481 /* DB */,
 				B28204DD1B622642003F3481 /* Info.plist */,
 				B28204DE1B622642003F3481 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B28205021B622D5A003F3481 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				B28205031B622D74003F3481 /* ConfigApp.m */,
+				B28205041B622D74003F3481 /* ConfigApp.h */,
+				B28205051B622D74003F3481 /* MoreApp.m */,
+				B28205061B622D74003F3481 /* MoreApp.h */,
+				B282051A1B622EA4003F3481 /* Clay.h */,
+				B282051B1B622EA4003F3481 /* Clay.m */,
+				B282051D1B622EC1003F3481 /* ClayGroup.h */,
+				B282051E1B622EC1003F3481 /* ClayGroup.m */,
+				B28205201B622EF4003F3481 /* ClayStep.h */,
+				B28205211B622EF4003F3481 /* ClayStep.m */,
+			);
+			name = Entry;
+			sourceTree = "<group>";
+		};
+		B28205091B622D7D003F3481 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B28204E31B622642003F3481 /* ViewController.h */,
+				B28204E41B622642003F3481 /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B282050A1B622D8F003F3481 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B282050B1B622DB9003F3481 /* Constants.h */,
+				B282050C1B622DB9003F3481 /* Utils.h */,
+				B282050D1B622DB9003F3481 /* Utils.m */,
+				B282050F1B622DB9003F3481 /* ConfigManager.h */,
+				B282050E1B622DB9003F3481 /* ConfigManager.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		B28205121B622DEA003F3481 /* Proccessing */ = {
+			isa = PBXGroup;
+			children = (
+				B28205151B622DF8003F3481 /* SQLiteManager.h */,
+				B28205141B622DF8003F3481 /* SQLiteManager.m */,
+				B28205161B622DF8003F3481 /* DownloadManager.h */,
+				B28205131B622DF8003F3481 /* DownloadManager.m */,
+			);
+			name = Proccessing;
+			sourceTree = "<group>";
+		};
+		B28205191B622E5B003F3481 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				B28205251B62359C003F3481 /* Clay_Everything.sqlite */,
+			);
+			name = DB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +259,7 @@
 				B28204E81B622642003F3481 /* Main.storyboard in Resources */,
 				B28204ED1B622642003F3481 /* LaunchScreen.xib in Resources */,
 				B28204EA1B622642003F3481 /* Images.xcassets in Resources */,
+				B28205261B62359C003F3481 /* Clay_Everything.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,9 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B282051C1B622EA4003F3481 /* Clay.m in Sources */,
 				B28204E51B622642003F3481 /* ViewController.m in Sources */,
+				B28205071B622D74003F3481 /* ConfigApp.m in Sources */,
+				B28205111B622DB9003F3481 /* ConfigManager.m in Sources */,
 				B28204E21B622642003F3481 /* AppDelegate.m in Sources */,
+				B28205101B622DB9003F3481 /* Utils.m in Sources */,
+				B28205221B622EF4003F3481 /* ClayStep.m in Sources */,
+				B28205081B622D74003F3481 /* MoreApp.m in Sources */,
 				B28204DF1B622642003F3481 /* main.m in Sources */,
+				B282051F1B622EC1003F3481 /* ClayGroup.m in Sources */,
+				B28205171B622DF8003F3481 /* DownloadManager.m in Sources */,
+				B28205181B622DF8003F3481 /* SQLiteManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
