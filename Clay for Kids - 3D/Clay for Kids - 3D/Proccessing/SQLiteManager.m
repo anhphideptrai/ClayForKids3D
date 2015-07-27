@@ -8,6 +8,7 @@
 
 #import "SQLiteManager.h"
 #import <sqlite3.h>
+#import "AppDelegate.h"
 
 @interface SQLiteManager()
 
@@ -98,6 +99,7 @@ static SQLiteManager *thisInstance;
 }
 - (NSMutableArray*)getAllClayGroup{
     [self copyDatabase];
+    AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
     NSMutableArray *resultArray = [[NSMutableArray alloc]init];
     sqlite3_stmt    *statement;
     const char *dbpath = [_databasePath UTF8String];
@@ -115,6 +117,11 @@ static SQLiteManager *thisInstance;
                 group.iDGroup = [NSString stringWithUTF8String:(char *) sqlite3_column_text(statement, 0)];
                 group.name = [NSString stringWithUTF8String:(char *) sqlite3_column_text(statement, 1)];
                 group.clays = [self getArrClayWithiDGroup:group.iDGroup orWithArrIDClay:group.iDClays];
+                if ([appDelegate.config.statusApp isEqualToString:_status_defalt_] &&
+                    ![group.iDGroup isEqualToString:@"04"] &&
+                    ![group.iDGroup isEqualToString:@"06"]) {
+                    continue;
+                }
                 [resultArray addObject:group];
             }
             sqlite3_finalize(statement);
