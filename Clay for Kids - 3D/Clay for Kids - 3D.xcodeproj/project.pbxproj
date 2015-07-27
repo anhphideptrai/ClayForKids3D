@@ -152,6 +152,13 @@
 		B28206231B623851003F3481 /* 005_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B28205A51B623851003F3481 /* 005_icon.png */; };
 		B2FDDF7B1B623BF200CB8735 /* SplashScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF7A1B623BF200CB8735 /* SplashScreenViewController.xib */; };
 		B2FDDF7E1B623C1A00CB8735 /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FDDF7D1B623C1A00CB8735 /* SplashScreenViewController.m */; };
+		B2FDDF801B65C8D600CB8735 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF7F1B65C8D600CB8735 /* MainViewController.xib */; };
+		B2FDDF831B65C8E600CB8735 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FDDF811B65C8E600CB8735 /* MainViewController.m */; };
+		B2FDDF8A1B65C9A400CB8735 /* PercentageBarUploadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FDDF871B65C9A400CB8735 /* PercentageBarUploadingView.m */; };
+		B2FDDF8B1B65C9A400CB8735 /* PercentageBarUploadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF881B65C9A400CB8735 /* PercentageBarUploadingView.xib */; };
+		B2FDDF8E1B65CA4100CB8735 /* MoreAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FDDF8C1B65CA4100CB8735 /* MoreAppsViewController.m */; };
+		B2FDDF901B65D40700CB8735 /* icon_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF8F1B65D40700CB8735 /* icon_placeholder.png */; };
+		B2FDDF921B65D62600CB8735 /* ic_more.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF911B65D62600CB8735 /* ic_more.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -317,6 +324,16 @@
 		B2FDDF7A1B623BF200CB8735 /* SplashScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashScreenViewController.xib; path = Xib/SplashScreenViewController.xib; sourceTree = "<group>"; };
 		B2FDDF7C1B623C1A00CB8735 /* SplashScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
 		B2FDDF7D1B623C1A00CB8735 /* SplashScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		B2FDDF7F1B65C8D600CB8735 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = Xib/MainViewController.xib; sourceTree = "<group>"; };
+		B2FDDF811B65C8E600CB8735 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B2FDDF821B65C8E600CB8735 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B2FDDF871B65C9A400CB8735 /* PercentageBarUploadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PercentageBarUploadingView.m; path = View/PercentageBarUploadingView/PercentageBarUploadingView.m; sourceTree = "<group>"; };
+		B2FDDF881B65C9A400CB8735 /* PercentageBarUploadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PercentageBarUploadingView.xib; path = View/PercentageBarUploadingView/PercentageBarUploadingView.xib; sourceTree = "<group>"; };
+		B2FDDF891B65C9A400CB8735 /* PercentageBarUploadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PercentageBarUploadingView.h; path = View/PercentageBarUploadingView/PercentageBarUploadingView.h; sourceTree = "<group>"; };
+		B2FDDF8C1B65CA4100CB8735 /* MoreAppsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreAppsViewController.m; sourceTree = "<group>"; };
+		B2FDDF8D1B65CA4100CB8735 /* MoreAppsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreAppsViewController.h; sourceTree = "<group>"; };
+		B2FDDF8F1B65D40700CB8735 /* icon_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_placeholder.png; path = Resource/Icon/icon_placeholder.png; sourceTree = "<group>"; };
+		B2FDDF911B65D62600CB8735 /* ic_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_more.png; path = Resource/Icon/ic_more.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +388,7 @@
 		B28204DB1B622642003F3481 /* Clay for Kids - 3D */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF841B65C97500CB8735 /* View */,
 				B2FDDF791B623BB700CB8735 /* Xib */,
 				B28205121B622DEA003F3481 /* Proccessing */,
 				B282050A1B622D8F003F3481 /* Common */,
@@ -416,6 +434,10 @@
 		B28205091B622D7D003F3481 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF8D1B65CA4100CB8735 /* MoreAppsViewController.h */,
+				B2FDDF8C1B65CA4100CB8735 /* MoreAppsViewController.m */,
+				B2FDDF821B65C8E600CB8735 /* MainViewController.h */,
+				B2FDDF811B65C8E600CB8735 /* MainViewController.m */,
 				B2FDDF7C1B623C1A00CB8735 /* SplashScreenViewController.h */,
 				B2FDDF7D1B623C1A00CB8735 /* SplashScreenViewController.m */,
 				B28204E31B622642003F3481 /* ViewController.h */,
@@ -458,6 +480,8 @@
 		B28205271B623817003F3481 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF911B65D62600CB8735 /* ic_more.png */,
+				B2FDDF8F1B65D40700CB8735 /* icon_placeholder.png */,
 				B28205281B623850003F3481 /* 126_icon.png */,
 				B28205291B623850003F3481 /* 123_icon.png */,
 				B282052A1B623850003F3481 /* 124_icon.png */,
@@ -591,9 +615,20 @@
 		B2FDDF791B623BB700CB8735 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF7F1B65C8D600CB8735 /* MainViewController.xib */,
 				B2FDDF7A1B623BF200CB8735 /* SplashScreenViewController.xib */,
 			);
 			name = Xib;
+			sourceTree = "<group>";
+		};
+		B2FDDF841B65C97500CB8735 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B2FDDF871B65C9A400CB8735 /* PercentageBarUploadingView.m */,
+				B2FDDF881B65C9A400CB8735 /* PercentageBarUploadingView.xib */,
+				B2FDDF891B65C9A400CB8735 /* PercentageBarUploadingView.h */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -675,6 +710,7 @@
 				B28206061B623851003F3481 /* 034_icon.png in Resources */,
 				B28205FD1B623851003F3481 /* 040_icon.png in Resources */,
 				B28205AD1B623851003F3481 /* 117_icon.png in Resources */,
+				B2FDDF921B65D62600CB8735 /* ic_more.png in Resources */,
 				B28205CC1B623851003F3481 /* 088_icon.png in Resources */,
 				B28205BE1B623851003F3481 /* 100_icon.png in Resources */,
 				B28205D91B623851003F3481 /* 075_icon.png in Resources */,
@@ -699,8 +735,10 @@
 				B28205DE1B623851003F3481 /* 070_icon.png in Resources */,
 				B28205EE1B623851003F3481 /* 058_icon.png in Resources */,
 				B28205F41B623851003F3481 /* 047_icon.png in Resources */,
+				B2FDDF8B1B65C9A400CB8735 /* PercentageBarUploadingView.xib in Resources */,
 				B28205EA1B623851003F3481 /* 054_icon.png in Resources */,
 				B28206011B623851003F3481 /* 038_icon.png in Resources */,
+				B2FDDF901B65D40700CB8735 /* icon_placeholder.png in Resources */,
 				B28205BF1B623851003F3481 /* 101_icon.png in Resources */,
 				B28205C61B623851003F3481 /* 096_icon.png in Resources */,
 				B28206051B623851003F3481 /* 033_icon.png in Resources */,
@@ -774,6 +812,7 @@
 				B28205E01B623851003F3481 /* 072_icon.png in Resources */,
 				B28205A91B623851003F3481 /* 125_icon.png in Resources */,
 				B28205FC1B623851003F3481 /* 039_icon.png in Resources */,
+				B2FDDF801B65C8D600CB8735 /* MainViewController.xib in Resources */,
 				B28205F51B623851003F3481 /* 048_icon.png in Resources */,
 				B28205B71B623851003F3481 /* 109_icon.png in Resources */,
 				B28205BD1B623851003F3481 /* 104_icon.png in Resources */,
@@ -833,12 +872,15 @@
 				B28205071B622D74003F3481 /* ConfigApp.m in Sources */,
 				B28205111B622DB9003F3481 /* ConfigManager.m in Sources */,
 				B2FDDF7E1B623C1A00CB8735 /* SplashScreenViewController.m in Sources */,
+				B2FDDF8A1B65C9A400CB8735 /* PercentageBarUploadingView.m in Sources */,
 				B28204E21B622642003F3481 /* AppDelegate.m in Sources */,
 				B28205101B622DB9003F3481 /* Utils.m in Sources */,
 				B28205221B622EF4003F3481 /* ClayStep.m in Sources */,
+				B2FDDF8E1B65CA4100CB8735 /* MoreAppsViewController.m in Sources */,
 				B28205081B622D74003F3481 /* MoreApp.m in Sources */,
 				B28204DF1B622642003F3481 /* main.m in Sources */,
 				B282051F1B622EC1003F3481 /* ClayGroup.m in Sources */,
+				B2FDDF831B65C8E600CB8735 /* MainViewController.m in Sources */,
 				B28205171B622DF8003F3481 /* DownloadManager.m in Sources */,
 				B28205181B622DF8003F3481 /* SQLiteManager.m in Sources */,
 			);

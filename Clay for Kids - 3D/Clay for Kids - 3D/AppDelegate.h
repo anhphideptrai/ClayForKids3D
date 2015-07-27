@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "DownloadManager.h"
 #import "ConfigApp.h"
+#import "Constants.h"
+#import "ConfigManager.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

@@ -10,6 +10,7 @@
 #import "ConfigManager.h"
 #import "AppDelegate.h"
 #import "Constants.h"
+#import "MainViewController.h"
 
 @interface SplashScreenViewController ()
 
@@ -61,8 +62,8 @@
     return YES;
 }
 - (void)goToMainView{
-//    AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
-//    UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:[[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:nil]];
-//    appDelegate.window.rootViewController = navC;
+    AppDelegate *appDelegate = [UIApplication sharedApplication].delegate;
+    UINavigationController *navC = [[UINavigationController alloc] initWithRootViewController:[[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil]];
+    appDelegate.window.rootViewController = navC;
 }
 @end
