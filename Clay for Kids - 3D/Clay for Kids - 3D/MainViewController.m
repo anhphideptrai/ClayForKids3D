@@ -14,6 +14,7 @@
 #import <GoogleMobileAds/GoogleMobileAds.h>
 #import <UIImageView+AFNetworking.h>
 #import "Utils.h"
+#import "GuideViewController.h"
 
 @interface MainViewController () <UITableViewDataSource,UITableViewDelegate, DownloadManagerDelegate, GADInterstitialDelegate>{
     NSMutableArray *groups;
@@ -100,11 +101,11 @@
     [self presentViewController:navC animated:YES completion:^{}];
 }
 - (void)openClayDetail{
-//    legoSelected.legoSteps = [[SQLiteManager getInstance] getLegoStepsWithIDLego:legoSelected.iDLego];
-//    GuideViewController *guideVC = [[GuideViewController alloc] initWithNibName:@"GuideViewController" bundle:nil];
-//    [guideVC setLego:legoSelected];
-//    shouldAds = YES;
-//    [self.navigationController pushViewController:guideVC animated:YES];
+    claySelected.steps = [[SQLiteManager getInstance] getClayStepsWithIDClay:claySelected.iDClay];
+    GuideViewController *guideVC = [[GuideViewController alloc] initWithNibName:@"GuideViewController" bundle:nil];
+    [guideVC setClay:claySelected];
+    shouldAds = YES;
+    [self.navigationController pushViewController:guideVC animated:YES];
 }
 - (UIView *) percentageBarUploadingV{
     if( !_percentageBarUploadingV ) {

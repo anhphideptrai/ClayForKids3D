@@ -19,7 +19,7 @@
 
 #define _NAME_DB_STRING_ @"TEVHT19EQi5zcWxpdGU="
 #define _NAME_DB_SIMPLE_STRING_ @"U0lNUExFX0xFR09fREIuc3FsaXRl="
-#define _msg_rating_ @"Help make Animated Bricks 3D even better. Rate us 5 stars!"
+#define _msg_rating_ @"Help make Clay For Kids - 3D even better. Rate us 5 stars!"
 #define _msg_rate_it_5_starts_ @"Rate it 5 stars"
 #define _msg_dismiss_ @"Dismiss"
 
@@ -29,7 +29,7 @@
 #define _msg_share_ @"Share via"
 
 #define _url_share_ @"https://itunes.apple.com/app/id1001195289"
-#define _url_more_apps_ @"https://raw.githubusercontent.com/anhphideptrai/more-apps/master/more_apps_bricks_3d.json"
+#define _url_more_apps_ @"https://raw.githubusercontent.com/anhphideptrai/more-apps/master/more_apps_clay_for_kids_3d.json"
 
 #define HEIGHT_CONTENT_GUIDE_VIEW_ROW (IS_IPAD?245:165)
 #define HEIGHT_CONTENT_GUIDE_VIEW_ROW_HEADER 30
@@ -74,8 +74,8 @@
 
 #define _LABEL_PERCENT_FONT_ [UIFont fontWithName:@"Helvetica" size:14.0f]
 
-#define BANNER_ID_ADMOB_DETAIL_PAGE @"ca-app-pub-1775449000819183/5229441150"
-#define INTERSTITIAL_ID_ADMOB_PAGE @"ca-app-pub-1775449000819183/3417643956"
+#define BANNER_ID_ADMOB_DETAIL_PAGE @"ca-app-pub-1775449000819183/5229441150fasdfasd"
+#define INTERSTITIAL_ID_ADMOB_PAGE @"ca-app-pub-1775449000819183/3417643956fadsfasd"
 
 #define CONFIG_STATUS_TAG @"CONFIG_STATUS_TAG"
 #define CONFIG_ADS_TAG @"CONFIG_ADS_TAG"
@@ -84,8 +84,8 @@
 
 #define SHOW_RATING_VIEW_TAG @"SHOW_RATING_VIEW_1"
 
-#define _status_defalt_ @"beta"
-#define _ads_default_ @"beta"
-#define _more_default_ @"beta"
+#define _status_defalt_ @"beta1"
+#define _ads_default_ @"beta1"
+#define _more_default_ @"beta1"
 
 #endif

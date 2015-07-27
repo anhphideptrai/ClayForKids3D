@@ -159,6 +159,10 @@
 		B2FDDF8E1B65CA4100CB8735 /* MoreAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FDDF8C1B65CA4100CB8735 /* MoreAppsViewController.m */; };
 		B2FDDF901B65D40700CB8735 /* icon_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF8F1B65D40700CB8735 /* icon_placeholder.png */; };
 		B2FDDF921B65D62600CB8735 /* ic_more.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF911B65D62600CB8735 /* ic_more.png */; };
+		B2FDDF951B65DD3E00CB8735 /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FDDF931B65DD3E00CB8735 /* GuideViewController.m */; };
+		B2FDDF971B65DD5F00CB8735 /* GuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF961B65DD5F00CB8735 /* GuideViewController.xib */; };
+		B2FDDF9A1B65E2E500CB8735 /* btnRight.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF981B65E2E500CB8735 /* btnRight.png */; };
+		B2FDDF9B1B65E2E500CB8735 /* btnLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF991B65E2E500CB8735 /* btnLeft.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -334,6 +338,11 @@
 		B2FDDF8D1B65CA4100CB8735 /* MoreAppsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreAppsViewController.h; sourceTree = "<group>"; };
 		B2FDDF8F1B65D40700CB8735 /* icon_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_placeholder.png; path = Resource/Icon/icon_placeholder.png; sourceTree = "<group>"; };
 		B2FDDF911B65D62600CB8735 /* ic_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_more.png; path = Resource/Icon/ic_more.png; sourceTree = "<group>"; };
+		B2FDDF931B65DD3E00CB8735 /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		B2FDDF941B65DD3E00CB8735 /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		B2FDDF961B65DD5F00CB8735 /* GuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GuideViewController.xib; path = Xib/GuideViewController.xib; sourceTree = "<group>"; };
+		B2FDDF981B65E2E500CB8735 /* btnRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnRight.png; path = Resource/Icon/btnRight.png; sourceTree = "<group>"; };
+		B2FDDF991B65E2E500CB8735 /* btnLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnLeft.png; path = Resource/Icon/btnLeft.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -434,6 +443,8 @@
 		B28205091B622D7D003F3481 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF941B65DD3E00CB8735 /* GuideViewController.h */,
+				B2FDDF931B65DD3E00CB8735 /* GuideViewController.m */,
 				B2FDDF8D1B65CA4100CB8735 /* MoreAppsViewController.h */,
 				B2FDDF8C1B65CA4100CB8735 /* MoreAppsViewController.m */,
 				B2FDDF821B65C8E600CB8735 /* MainViewController.h */,
@@ -480,6 +491,8 @@
 		B28205271B623817003F3481 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF981B65E2E500CB8735 /* btnRight.png */,
+				B2FDDF991B65E2E500CB8735 /* btnLeft.png */,
 				B2FDDF911B65D62600CB8735 /* ic_more.png */,
 				B2FDDF8F1B65D40700CB8735 /* icon_placeholder.png */,
 				B28205281B623850003F3481 /* 126_icon.png */,
@@ -615,6 +628,7 @@
 		B2FDDF791B623BB700CB8735 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF961B65DD5F00CB8735 /* GuideViewController.xib */,
 				B2FDDF7F1B65C8D600CB8735 /* MainViewController.xib */,
 				B2FDDF7A1B623BF200CB8735 /* SplashScreenViewController.xib */,
 			);
@@ -704,6 +718,7 @@
 				B28205DD1B623851003F3481 /* 069_icon.png in Resources */,
 				B28205D41B623851003F3481 /* 079_icon.png in Resources */,
 				B28205CE1B623851003F3481 /* 085_icon.png in Resources */,
+				B2FDDF9B1B65E2E500CB8735 /* btnLeft.png in Resources */,
 				B28205B61B623851003F3481 /* 108_icon.png in Resources */,
 				B28206101B623851003F3481 /* 019_icon.png in Resources */,
 				B282060D1B623851003F3481 /* 022_icon.png in Resources */,
@@ -787,12 +802,14 @@
 				B28204EA1B622642003F3481 /* Images.xcassets in Resources */,
 				B28205DB1B623851003F3481 /* 077_icon.png in Resources */,
 				B28205261B62359C003F3481 /* Clay_Everything.sqlite in Resources */,
+				B2FDDF9A1B65E2E500CB8735 /* btnRight.png in Resources */,
 				B28206031B623851003F3481 /* 031_icon.png in Resources */,
 				B28206151B623851003F3481 /* 013_icon.png in Resources */,
 				B28206001B623851003F3481 /* 037_icon.png in Resources */,
 				B28205C31B623851003F3481 /* 099_icon.png in Resources */,
 				B282061A1B623851003F3481 /* 008_icon.png in Resources */,
 				B28205EF1B623851003F3481 /* 052_icon.png in Resources */,
+				B2FDDF971B65DD5F00CB8735 /* GuideViewController.xib in Resources */,
 				B28205DA1B623851003F3481 /* 076_icon.png in Resources */,
 				B282061B1B623851003F3481 /* 009_icon.png in Resources */,
 				B28206021B623851003F3481 /* 030_icon.png in Resources */,
@@ -879,6 +896,7 @@
 				B2FDDF8E1B65CA4100CB8735 /* MoreAppsViewController.m in Sources */,
 				B28205081B622D74003F3481 /* MoreApp.m in Sources */,
 				B28204DF1B622642003F3481 /* main.m in Sources */,
+				B2FDDF951B65DD3E00CB8735 /* GuideViewController.m in Sources */,
 				B282051F1B622EC1003F3481 /* ClayGroup.m in Sources */,
 				B2FDDF831B65C8E600CB8735 /* MainViewController.m in Sources */,
 				B28205171B622DF8003F3481 /* DownloadManager.m in Sources */,

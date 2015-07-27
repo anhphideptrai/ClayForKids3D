@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[ConfigManager getInstance] loadConfig:@"https://raw.githubusercontent.com/anhphideptrai/BricksAnimated3D/master/config-app/get_config_bricks_app.json" finished:^(BOOL success, ConfigApp *configApp) {
+    [[ConfigManager getInstance] loadConfig:@"https://raw.githubusercontent.com/anhphideptrai/ClayForKids3D/master/config-app/get_config_clay_app.json" finished:^(BOOL success, ConfigApp *configApp) {
         AppDelegate *appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
         if (success) {
             appDelegate.config = configApp;
