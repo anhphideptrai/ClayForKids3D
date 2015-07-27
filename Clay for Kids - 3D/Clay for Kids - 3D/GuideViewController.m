@@ -13,10 +13,12 @@
 #import "AppDelegate.h"
 #import "Utils.h"
 #import <UIImageView+AFNetworking.h>
+#import "StarsBarView.h"
 
-@interface GuideViewController ()<GADBannerViewDelegate, MFMailComposeViewControllerDelegate>{
+@interface GuideViewController ()<GADBannerViewDelegate, MFMailComposeViewControllerDelegate, StarsBarViewDelegate>{
     NSInteger currentIndex;
     AppDelegate *appDelegate;
+    StarsBarView *_starsBarView;
 }
 @property (weak, nonatomic) IBOutlet UIImageView *a_newImgView;
 @property (weak, nonatomic) IBOutlet UIView *toolBarView;
@@ -90,6 +92,14 @@
 }
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    if (!_starsBarView) {
+        _starsBarView = [[StarsBarView alloc] initBricksBarWithFrame:CGRectMake(0, 1, self.view.frame.size.width, _bricksView.frame.size.height - 2)];
+        [_starsBarView setDelegate:self];
+        [_starsBarView setBackgroundColor:UIColorFromRGB(0xf8f8f8)];
+        [_starsBarView loadView];
+        [_bricksView setBackgroundColor:UIColorFromRGB(0xe0e0e0)];
+        [_bricksView addSubview:_starsBarView];
+    }
     [self updateData];
 }
 - (void)adViewDidReceiveAd:(GADBannerView *)view{
@@ -116,6 +126,10 @@
 - (IBAction)actionRight:(id)sender {
     currentIndex = MIN(_clay.steps.count - 1, currentIndex + 1);
     [self updateData];
+}
+#pragma mark - StarsBarViewDelegate methods
+- (NSUInteger)numberItemsForStarsBarView:(StarsBarView*)starsBarView{
+    return _clay.rate;
 }
 #pragma mark - MFMailComposeViewControllerDelegate methods
 - (void) mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error

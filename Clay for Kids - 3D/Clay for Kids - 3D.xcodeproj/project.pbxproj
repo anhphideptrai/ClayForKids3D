@@ -163,6 +163,8 @@
 		B2FDDF971B65DD5F00CB8735 /* GuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF961B65DD5F00CB8735 /* GuideViewController.xib */; };
 		B2FDDF9A1B65E2E500CB8735 /* btnRight.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF981B65E2E500CB8735 /* btnRight.png */; };
 		B2FDDF9B1B65E2E500CB8735 /* btnLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF991B65E2E500CB8735 /* btnLeft.png */; };
+		B2FDDF9E1B65E96E00CB8735 /* StarsBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FDDF9C1B65E96E00CB8735 /* StarsBarView.m */; };
+		B2FDDFA01B65EA9A00CB8735 /* star_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2FDDF9F1B65EA9A00CB8735 /* star_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -343,6 +345,9 @@
 		B2FDDF961B65DD5F00CB8735 /* GuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GuideViewController.xib; path = Xib/GuideViewController.xib; sourceTree = "<group>"; };
 		B2FDDF981B65E2E500CB8735 /* btnRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnRight.png; path = Resource/Icon/btnRight.png; sourceTree = "<group>"; };
 		B2FDDF991B65E2E500CB8735 /* btnLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btnLeft.png; path = Resource/Icon/btnLeft.png; sourceTree = "<group>"; };
+		B2FDDF9C1B65E96E00CB8735 /* StarsBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StarsBarView.m; path = View/BricksBarView/StarsBarView.m; sourceTree = "<group>"; };
+		B2FDDF9D1B65E96E00CB8735 /* StarsBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StarsBarView.h; path = View/BricksBarView/StarsBarView.h; sourceTree = "<group>"; };
+		B2FDDF9F1B65EA9A00CB8735 /* star_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_icon.png; path = Resource/Icon/star_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -491,6 +496,7 @@
 		B28205271B623817003F3481 /* Icon */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF9F1B65EA9A00CB8735 /* star_icon.png */,
 				B2FDDF981B65E2E500CB8735 /* btnRight.png */,
 				B2FDDF991B65E2E500CB8735 /* btnLeft.png */,
 				B2FDDF911B65D62600CB8735 /* ic_more.png */,
@@ -638,6 +644,8 @@
 		B2FDDF841B65C97500CB8735 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B2FDDF9D1B65E96E00CB8735 /* StarsBarView.h */,
+				B2FDDF9C1B65E96E00CB8735 /* StarsBarView.m */,
 				B2FDDF871B65C9A400CB8735 /* PercentageBarUploadingView.m */,
 				B2FDDF881B65C9A400CB8735 /* PercentageBarUploadingView.xib */,
 				B2FDDF891B65C9A400CB8735 /* PercentageBarUploadingView.h */,
@@ -754,6 +762,7 @@
 				B28205EA1B623851003F3481 /* 054_icon.png in Resources */,
 				B28206011B623851003F3481 /* 038_icon.png in Resources */,
 				B2FDDF901B65D40700CB8735 /* icon_placeholder.png in Resources */,
+				B2FDDFA01B65EA9A00CB8735 /* star_icon.png in Resources */,
 				B28205BF1B623851003F3481 /* 101_icon.png in Resources */,
 				B28205C61B623851003F3481 /* 096_icon.png in Resources */,
 				B28206051B623851003F3481 /* 033_icon.png in Resources */,
@@ -896,6 +905,7 @@
 				B2FDDF8E1B65CA4100CB8735 /* MoreAppsViewController.m in Sources */,
 				B28205081B622D74003F3481 /* MoreApp.m in Sources */,
 				B28204DF1B622642003F3481 /* main.m in Sources */,
+				B2FDDF9E1B65E96E00CB8735 /* StarsBarView.m in Sources */,
 				B2FDDF951B65DD3E00CB8735 /* GuideViewController.m in Sources */,
 				B282051F1B622EC1003F3481 /* ClayGroup.m in Sources */,
 				B2FDDF831B65C8E600CB8735 /* MainViewController.m in Sources */,
