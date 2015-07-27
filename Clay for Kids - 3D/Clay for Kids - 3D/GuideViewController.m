@@ -115,7 +115,7 @@
 - (void)updateData{
     ClayStep *step = _clay.steps[currentIndex];
     NSURL* oldImg = [Utils getURLImageForIDLego:step.iDClay andFileName:[[step.urlImage componentsSeparatedByString:@"/"] lastObject]];
-    [_lbDescription setText:currentIndex == 0 ? @"Preview" : [NSString stringWithFormat:@"%ld/%lu", currentIndex + 1, (unsigned long)_clay.steps.count]];
+    [_lbDescription setText:currentIndex == 0 ? @"Preview" : [NSString stringWithFormat:@"%ld/%lu", currentIndex, (unsigned long)_clay.steps.count - 1]];
     [_a_newImgView setAlpha:1.f];
     [_a_newImgView setImageWithURL:oldImg];
 }

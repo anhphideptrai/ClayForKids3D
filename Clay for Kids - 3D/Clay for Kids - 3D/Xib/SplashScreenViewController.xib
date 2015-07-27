@@ -15,7 +15,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lego_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="0M6-S1-baW">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0M6-S1-baW">
                     <rect key="frame" x="225" y="35" width="150" height="150"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="150" id="G17-dx-VQZ"/>
@@ -81,7 +81,4 @@
             <nil key="simulatedStatusBarMetrics"/>
         </view>
     </objects>
-    <resources>
-        <image name="lego_icon.png" width="248" height="262"/>
-    </resources>
 </document>

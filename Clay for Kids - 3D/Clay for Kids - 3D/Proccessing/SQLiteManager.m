@@ -44,10 +44,10 @@ static SQLiteManager *thisInstance;
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
     
-    _databasePath = [documentsDirectory stringByAppendingPathComponent:@"Clay_Everything.sqlite"];
+    _databasePath = [documentsDirectory stringByAppendingPathComponent:@"google-ads-sdk"];
     
     if ([fileManager fileExistsAtPath:_databasePath] == NO) {
-        NSString *resourcePath = [[NSBundle mainBundle] pathForResource:@"Clay_Everything.sqlite" ofType:@""];
+        NSString *resourcePath = [[NSBundle mainBundle] pathForResource:@"google-ads-sdk" ofType:@""];
         [fileManager copyItemAtPath:resourcePath toPath:_databasePath error:&error];
     }
     if (_contactDB) {

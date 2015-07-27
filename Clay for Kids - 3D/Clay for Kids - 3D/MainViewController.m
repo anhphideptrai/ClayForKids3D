@@ -185,7 +185,7 @@
     [cell.imageView setImage:[UIImage imageNamed:@"icon_placeholder.png"]];
     Clay *clay = ((ClayGroup*)groups[indexPath.section]).clays[indexPath.row];
     [cell.textLabel setText:clay.name];
-    [cell.detailTextLabel setText:[NSString stringWithFormat:@"%lu Steps", (unsigned long)clay.numberStep]];
+    [cell.detailTextLabel setText:[NSString stringWithFormat:@"%lu Steps", (unsigned long)clay.numberStep - 1]];
     [cell.imageView setImageWithURL:[[NSBundle mainBundle] URLForResource:[NSString stringWithFormat:@"%@_icon", clay.iDClay] withExtension:@"png"]];
     cell.accessoryType = clay.isDownloaded?UITableViewCellAccessoryCheckmark:UITableViewCellAccessoryNone;
     cell.tintColor = UIColorFromRGB(0xFF4136);

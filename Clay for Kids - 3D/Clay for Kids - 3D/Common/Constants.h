@@ -28,7 +28,7 @@
 #define _msg_cancel_ @"Cancel"
 #define _msg_share_ @"Share via"
 
-#define _url_share_ @"https://itunes.apple.com/app/id1001195289"
+#define _url_share_ @"https://itunes.apple.com/app/id1023288170"
 #define _url_more_apps_ @"https://raw.githubusercontent.com/anhphideptrai/more-apps/master/more_apps_clay_for_kids_3d.json"
 
 #define HEIGHT_CONTENT_GUIDE_VIEW_ROW (IS_IPAD?245:165)
@@ -74,8 +74,8 @@
 
 #define _LABEL_PERCENT_FONT_ [UIFont fontWithName:@"Helvetica" size:14.0f]
 
-#define BANNER_ID_ADMOB_DETAIL_PAGE @"ca-app-pub-1775449000819183/5229441150fasdfasd"
-#define INTERSTITIAL_ID_ADMOB_PAGE @"ca-app-pub-1775449000819183/3417643956fadsfasd"
+#define BANNER_ID_ADMOB_DETAIL_PAGE @"ca-app-pub-1775449000819183/9659514751"
+#define INTERSTITIAL_ID_ADMOB_PAGE @"ca-app-pub-1775449000819183/2136247950"
 
 #define CONFIG_STATUS_TAG @"CONFIG_STATUS_TAG"
 #define CONFIG_ADS_TAG @"CONFIG_ADS_TAG"
