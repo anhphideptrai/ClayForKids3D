@@ -23,6 +23,7 @@
     BOOL shouldAds;
     AppDelegate *appDelegate;
     NSTimer *delayShowAdsTimer;
+    BOOL isNotFirst;
 }
 @property (weak, nonatomic) IBOutlet UITableView *tbView;
 @property(nonatomic, strong) GADInterstitial *interstitial;
@@ -64,8 +65,19 @@
     groups = [[SQLiteManager getInstance] getAllClayGroup];
     [appDelegate.downloadManager setDelegate:self];
 }
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    if (!isNotFirst) {
+        isNotFirst = YES;
+        return;
+    }
+    NSUInteger r = arc4random_uniform(15) + 1;
+    if (r == 3) {
+        if (!([[NSUserDefaults standardUserDefaults] objectForKey:SHOW_RATING_VIEW_TAG])) {
+            [self actionLike];
+            return;
+        }
+    }
     if (delayShowAdsTimer) {
         [delayShowAdsTimer invalidate];
         delayShowAdsTimer = nil;
@@ -78,7 +90,7 @@
         }
     }
 }
--(void)viewDidDisappear:(BOOL)animated{
+- (void)viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     if (delayShowAdsTimer) {
         [delayShowAdsTimer invalidate];
@@ -237,4 +249,13 @@
 - (void)interstitialDidReceiveAd:(GADInterstitial *)interstitial {
     [self.interstitial presentFromRootViewController:self];
 }
+#pragma mark - UIAlertViewDelegate methods
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (buttonIndex != alertView.cancelButtonIndex) {
+        [[NSUserDefaults standardUserDefaults] setValue:@(true) forKey:SHOW_RATING_VIEW_TAG];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:appDelegate.config.urliTunes]];
+    }
+}
+
 @end
