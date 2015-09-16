@@ -1,0 +1,996 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADC6BE964858456582736B0A883E9C5 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C77272CC9B38F280E14989DF85C5A61 /* UIActivityIndicatorView+AFNetworking.m */; };
+		1B923E0B264E4A5E55DF0953609F08E1 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 33ECB1C6FFC01AEAC7CACD87B4504BDA /* AFSecurityPolicy.h */; };
+		1FA68C3B1DD375CFB9E21306CA8BC562 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F2BD38D4B5BACF049A99426EAF1C16 /* UIWebView+AFNetworking.h */; };
+		230F3629B9F6D3EF05AB4B6788687FC5 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B3D8F83FB23D40ADB8C3231E53876D /* UIAlertView+AFNetworking.m */; };
+		26EA5CDC27BE1F63CFCD9B68094D1074 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F9AC9518ECBD4CAE386EE1C14357419F /* UIRefreshControl+AFNetworking.h */; };
+		2D29588E6E43CF91CC349C51788AA4C4 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 41581EA8F01619C0A160FC9E6B253323 /* AFURLConnectionOperation.h */; };
+		2D89AB720882ED066D28AB540AE3D67A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B37F43275604D6E1B0DD62D27B9E6A2 /* AFURLSessionManager.m */; };
+		3088AEF1792AAACEB9E93C89D84E4F3F /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E9402B85600DAF1B31934968DEC52B2F /* AFHTTPRequestOperation.h */; };
+		329E311EE5C98D3D1EC64FC3CE24B2B8 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F42BD12FC98E9A1F79814FCA53116D7 /* AFURLConnectionOperation.m */; };
+		35594A68C16FB52C217D722732B3DEC3 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 767CE63F6574919DD5F48927315237B7 /* AFNetworkReachabilityManager.h */; };
+		3FC11A60B484F86C50A5FF9C758E7F2D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A980E4A8DD5A2099A54B0D2943A78B64 /* AFNetworkReachabilityManager.m */; };
+		46EF218A668185FD9B308239619D94A6 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 542957F535F4B2220753F495F203FC6E /* AFSecurityPolicy.m */; };
+		4B8C6F8F4AA36408BF502566E49D113B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEE0B6AC803E18DFCEC3DE6BFB24B17 /* CoreGraphics.framework */; };
+		56388D6377D472AB8E28AB75B36180D5 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C66580090BF93D716C7AE3AEA2DB57D5 /* AFNetworkActivityIndicatorManager.h */; };
+		5FFA4EA8800E2E512BB311D980666863 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A82A582DAD2CB445ACD0D3F7A75CC3 /* AFURLResponseSerialization.m */; };
+		6B6E5D8D859A5CAB3A51A869A9E6EB10 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AEC68B80E5620C771497CCFE904EE66 /* AFURLSessionManager.h */; };
+		6FFDB519C3B3A48FCF0DEB75B6599445 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9695A8620F76B10903EE71E27E6C7079 /* AFNetworking-dummy.m */; };
+		74866694C772BEA4E50186B9697A403C /* Pods-fvlive_iosapp_infonam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BC650E94F28D8C491DE78DB96330D3 /* Pods-fvlive_iosapp_infonam-dummy.m */; };
+		74FE5B3A5A66E04A30663689A897F6AC /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AACC71392D756CEDE155E5A28D1F9C19 /* AFHTTPRequestOperation.m */; };
+		77D2301763FF3F4B94887D7E16D135A4 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A7253B1284EBA7A8CC0B1955E5BD0E0 /* AFHTTPSessionManager.h */; };
+		8286806B7344F8DB64E97E3CE9C3F57E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6202242B0E6F66BF8DD495D924D28AB /* AFNetworkActivityIndicatorManager.m */; };
+		8C2E9480E612EB624F299136A04DE6CC /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B16A664F27441B0CEA437EA723454 /* UIButton+AFNetworking.m */; };
+		A0C346F6C848507328DB45092365C439 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBAF78A00FD173DDB3C6343FC0E44DA /* AFNetworking.h */; };
+		A18172FFF9016A25B367C24A94B0F9D9 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC92512EA301588225EF033D6559610 /* UIActivityIndicatorView+AFNetworking.h */; };
+		B0CD151F384C18E39682D74C098042EC /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 532F3A73ADCA2A959C06B878449E16BA /* UIWebView+AFNetworking.m */; };
+		B1B526B93A6ACDD5D1048605416FA7F2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7984F6FBE2CB0F2BC0ED8B5FE28D0AE6 /* UIImageView+AFNetworking.h */; };
+		B2A6703C22C89FE8457C2B09FADA7D7E /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFBE3D64608B7F474734014863ECB36 /* AFHTTPRequestOperationManager.h */; };
+		B67803171F8CDD50682B56FB46ADA076 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = C2505F9469141816103EBD85B6989862 /* AFURLResponseSerialization.h */; };
+		BBC4D484AD445B0B337FBACA475E2B71 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = FF08FE29B794EEEF00CFDEC7A3504F54 /* AFURLRequestSerialization.h */; };
+		C4C9F8CBB79DB112F9D440073BF2B496 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 760BE484003DA32757789910056987E4 /* UIProgressView+AFNetworking.h */; };
+		C6600E18F74E4EA2D03BBC5D957C48A0 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 889E763FBAAE0054C4643922AB8CF04E /* UIAlertView+AFNetworking.h */; };
+		CBF5D841D5A7A8C4DBE08D2B3E35ACF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B9DB5A33A553A05195B42560851F3A /* Foundation.framework */; };
+		CC8691CBD72CB36D68749CC9AE30CBDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B9DB5A33A553A05195B42560851F3A /* Foundation.framework */; };
+		CFC24F07656A1861DBC733A0DC954076 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B391EC34E1C62CC29F0AF9A868430D3 /* UIImage+AFNetworking.h */; };
+		D73BFBE43FEA6EC94DECAAFFC62B7B6A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A0194005592F6DFD71B7E8AEB4068DA /* UIImageView+AFNetworking.m */; };
+		DA7829DF9F62B5947F9779F7198F6DD9 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC07507E8C3D393E5FCBE5065650A39 /* AFHTTPSessionManager.m */; };
+		E71E52204E889011F2463B005A1C07AA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A299C5392531FE03D26756BFD6A8E988 /* MobileCoreServices.framework */; };
+		EB947310A86B109F690711DD720EC937 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E702748C557166F10776113BAD326D4 /* SystemConfiguration.framework */; };
+		EE872E012F49F5A3B979F457C86E5AE0 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C80E46450BCA040AC0D55A679159E0 /* UIProgressView+AFNetworking.m */; };
+		F0A69ED0C6BBF6D9980D460025237F93 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D9799F154B4863C3D8E2BF900FB93C /* AFURLRequestSerialization.m */; };
+		F7428FE312CB5132BA1FE8D1A78332AA /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D607E9733D7AE89D7F03CC1324920963 /* UIButton+AFNetworking.h */; };
+		F79D45FA812A52B57598FDD429B70602 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB65420169DA7B4612AD1E367349F40A /* AFHTTPRequestOperationManager.m */; };
+		F7A41CF8B2CE9210CFBFB09BDF3D5C03 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2961649AA69721CAF1BE575AA682A6B /* Security.framework */; };
+		F9443C82F3A63E7BFD5CA3C9615FBC07 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD4A6DE57EBDEB9AFA5B69678C0F3C0 /* UIRefreshControl+AFNetworking.m */; };
+		FB69BECDC869994654373B62452F62FC /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FCCDE8A696F2A33C908F371019C6C5 /* UIKit+AFNetworking.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2987B5544C2EBDBB90849278FF7E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC5A67D9F55167B13ED8B36F07BE20C4;
+			remoteInfo = AFNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0000D09BBCC58AE193BFA05C39873628 /* libavutil.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavutil.a; path = "ffmpeg-ios-static-libs/lib/libavutil.a"; sourceTree = "<group>"; };
+		002CAACBE1A487D77AA66D17EDD80756 /* http.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = http.h; path = "ffmpeg-ios-static-libs/include/librtmp/http.h"; sourceTree = "<group>"; };
+		00F66605F62C18DF72498E7D7CECCC6C /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = "ffmpeg-ios-static-libs/include/openssl/ssl.h"; sourceTree = "<group>"; };
+		01524FCB9D18F380323C3DC2C530A515 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "ffmpeg-ios-static-libs/include/libavutil/version.h"; sourceTree = "<group>"; };
+		027CB1A96D8AC1B793B27F3D80E5CAA6 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = krb5_asn.h; path = "ffmpeg-ios-static-libs/include/openssl/krb5_asn.h"; sourceTree = "<group>"; };
+		02C9D3F03FDF8C35414D28802585C12F /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = "ffmpeg-ios-static-libs/include/openssl/dso.h"; sourceTree = "<group>"; };
+		03AE29100B3175BF9353611805155BA6 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "ffmpeg-ios-static-libs/include/libavutil/md5.h"; sourceTree = "<group>"; };
+		03BC650E94F28D8C491DE78DB96330D3 /* Pods-fvlive_iosapp_infonam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fvlive_iosapp_infonam-dummy.m"; sourceTree = "<group>"; };
+		052ECD4109C40097D0A7F0F50282EF85 /* samplefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = samplefmt.h; path = "ffmpeg-ios-static-libs/include/libavutil/samplefmt.h"; sourceTree = "<group>"; };
+		06B6203B512895CF96A67221C1CB7035 /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = "ffmpeg-ios-static-libs/include/libavutil/log.h"; sourceTree = "<group>"; };
+		07717CB2939C2C3C964C2AFFA27A2DE3 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = "ffmpeg-ios-static-libs/include/libavutil/sha.h"; sourceTree = "<group>"; };
+		0B391EC34E1C62CC29F0AF9A868430D3 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		0D030932AA2680FE5D3BAD761A79591F /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = "ffmpeg-ios-static-libs/include/openssl/kssl.h"; sourceTree = "<group>"; };
+		0D78D0A0B706BC2250636BDE70211238 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = "ffmpeg-ios-static-libs/lib/libssl.a"; sourceTree = "<group>"; };
+		0E43DC85D19B00B0D91850E28C203A3A /* libavdevice.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavdevice.a; path = "ffmpeg-ios-static-libs/lib/libavdevice.a"; sourceTree = "<group>"; };
+		0E6555FEF1D2B1680C58A5F58A4D59F4 /* bswap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bswap.h; path = "ffmpeg-ios-static-libs/include/libavutil/bswap.h"; sourceTree = "<group>"; };
+		0E7151436A0A3D537D8AC3EEB0DA8AE4 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = "ffmpeg-ios-static-libs/include/openssl/rc4.h"; sourceTree = "<group>"; };
+		0FE51EBF40EB021252B4923A98AF39DF /* libswresample.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libswresample.a; path = "ffmpeg-ios-static-libs/lib/libswresample.a"; sourceTree = "<group>"; };
+		1016E8E7BF1E37201284FFE27C78A98E /* amf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amf.h; path = "ffmpeg-ios-static-libs/include/librtmp/amf.h"; sourceTree = "<group>"; };
+		14B2E0D7F8A52D5815A0DDB5F0A6C23E /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = "ffmpeg-ios-static-libs/include/openssl/rand.h"; sourceTree = "<group>"; };
+		19629AD7502130489B8D8913D1955379 /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = "ffmpeg-ios-static-libs/include/openssl/dtls1.h"; sourceTree = "<group>"; };
+		1A646D148F3A068CA7987FB383ACBAC7 /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = "ffmpeg-ios-static-libs/include/libavutil/base64.h"; sourceTree = "<group>"; };
+		1CD0FE891FB3CB9CD4F3276E0AA4CCC4 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = "ffmpeg-ios-static-libs/include/openssl/cms.h"; sourceTree = "<group>"; };
+		1E5F3CC6946F0F1A74E392E458C53D33 /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = "ffmpeg-ios-static-libs/include/openssl/engine.h"; sourceTree = "<group>"; };
+		1E702748C557166F10776113BAD326D4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		2021708024CF1A40F4F712613E9EADDA /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "ffmpeg-ios-static-libs/include/openssl/md5.h"; sourceTree = "<group>"; };
+		216842F9711ABB5B50ED954F4E7AB0B9 /* avio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avio.h; path = "ffmpeg-ios-static-libs/include/libavformat/avio.h"; sourceTree = "<group>"; };
+		221E697E19EF2493BD34CC2DD977D231 /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = "ffmpeg-ios-static-libs/include/openssl/x509_vfy.h"; sourceTree = "<group>"; };
+		236EA7F45E095846EC46DAF5E57F08ED /* pixfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixfmt.h; path = "ffmpeg-ios-static-libs/include/libavutil/pixfmt.h"; sourceTree = "<group>"; };
+		2376386561792C37B3039FE438DC67E6 /* libavformat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavformat.a; path = "ffmpeg-ios-static-libs/lib/libavformat.a"; sourceTree = "<group>"; };
+		2387662604B600ED6FB792D7DD0D7072 /* libPods-fvlive_iosapp_infonam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fvlive_iosapp_infonam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2664EA39AB4ED782A835842EEF35A456 /* fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fifo.h; path = "ffmpeg-ios-static-libs/include/libavutil/fifo.h"; sourceTree = "<group>"; };
+		2925EBB5E084924A0A2794959CD782CB /* timecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timecode.h; path = "ffmpeg-ios-static-libs/include/libavutil/timecode.h"; sourceTree = "<group>"; };
+		29A82A582DAD2CB445ACD0D3F7A75CC3 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		2A0194005592F6DFD71B7E8AEB4068DA /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		2A7253B1284EBA7A8CC0B1955E5BD0E0 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		2A92FF2D1E642BF7C5490BFF237A8725 /* avutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avutil.h; path = "ffmpeg-ios-static-libs/include/libavutil/avutil.h"; sourceTree = "<group>"; };
+		2AA4BA489DB7C9A4B95C586D50AD3B3F /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = "ffmpeg-ios-static-libs/include/libavutil/common.h"; sourceTree = "<group>"; };
+		2AD4A6DE57EBDEB9AFA5B69678C0F3C0 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		2AEC68B80E5620C771497CCFE904EE66 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		2AF54C326460027C731797860A069112 /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = "ffmpeg-ios-static-libs/include/openssl/ec.h"; sourceTree = "<group>"; };
+		2B37F43275604D6E1B0DD62D27B9E6A2 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		2CD55603A739130CDB52B56F90C54403 /* Pods-fvlive_iosapp_infonam-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fvlive_iosapp_infonam-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DEFED34F804DB55F2D4520866CBF829 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = "ffmpeg-ios-static-libs/include/openssl/ecdh.h"; sourceTree = "<group>"; };
+		2ED65A23D09677615441AA1695959599 /* intreadwrite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intreadwrite.h; path = "ffmpeg-ios-static-libs/include/libavutil/intreadwrite.h"; sourceTree = "<group>"; };
+		2EEFFB5FF7E8878CE0E5002F3BAC23C8 /* avassert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avassert.h; path = "ffmpeg-ios-static-libs/include/libavutil/avassert.h"; sourceTree = "<group>"; };
+		2F37D4EB9E576762D61EF0EF46DE62F4 /* audioconvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audioconvert.h; path = "ffmpeg-ios-static-libs/include/libavutil/audioconvert.h"; sourceTree = "<group>"; };
+		2F49099262E9310EF140DEA042705221 /* vdpau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdpau.h; path = "ffmpeg-ios-static-libs/include/libavcodec/vdpau.h"; sourceTree = "<group>"; };
+		30483B1F26E7BE5AEA9A3E319C66214D /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = "ffmpeg-ios-static-libs/include/openssl/rc2.h"; sourceTree = "<group>"; };
+		33362CC9190320AC53CF91637BAAE56B /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "ffmpeg-ios-static-libs/include/libavutil/buffer.h"; sourceTree = "<group>"; };
+		33DCDD373AD9816E0425261BA9CC13A6 /* avdevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avdevice.h; path = "ffmpeg-ios-static-libs/include/libavdevice/avdevice.h"; sourceTree = "<group>"; };
+		33ECB1C6FFC01AEAC7CACD87B4504BDA /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		34B8712A0714F9913C082E8D1B9CB4A0 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = "ffmpeg-ios-static-libs/include/libavutil/ripemd.h"; sourceTree = "<group>"; };
+		37A1D46E177EB20F4E0FE79874226A94 /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = "ffmpeg-ios-static-libs/include/openssl/ssl23.h"; sourceTree = "<group>"; };
+		37EEBF497DFDF4CC825C133AC3C79668 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = "ffmpeg-ios-static-libs/include/openssl/aes.h"; sourceTree = "<group>"; };
+		3B1FFD1E176A31455557D9424C632193 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = "ffmpeg-ios-static-libs/include/openssl/symhacks.h"; sourceTree = "<group>"; };
+		3DCD33CDB794BC67D0B2B1DBFE9B29CC /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = "ffmpeg-ios-static-libs/include/openssl/blowfish.h"; sourceTree = "<group>"; };
+		3E6A65CADA04E54A0A2B36C1FAE06418 /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = "ffmpeg-ios-static-libs/include/openssl/txt_db.h"; sourceTree = "<group>"; };
+		3F082FEE4AB1668FA859F5C46B548398 /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = "ffmpeg-ios-static-libs/include/openssl/stack.h"; sourceTree = "<group>"; };
+		41581EA8F01619C0A160FC9E6B253323 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		434FDC7402BCEEDB00AB7B57104D836C /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = "ffmpeg-ios-static-libs/include/libavutil/aes.h"; sourceTree = "<group>"; };
+		43C7BAD69BB479A88B51CF395C8C7684 /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = "ffmpeg-ios-static-libs/include/openssl/modes.h"; sourceTree = "<group>"; };
+		461257466A86D38009B90EAB6847E6FF /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FB9A842D23853B0C9CFA0D592E2553 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = "ffmpeg-ios-static-libs/include/libavutil/dict.h"; sourceTree = "<group>"; };
+		4AA96FF76E7847F348822E9B05642F16 /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = "ffmpeg-ios-static-libs/include/openssl/conf_api.h"; sourceTree = "<group>"; };
+		4C1F7A93297851A8D0B771BBC6607886 /* librtmp.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = librtmp.a; path = "ffmpeg-ios-static-libs/lib/librtmp.a"; sourceTree = "<group>"; };
+		4E9DA02287716C0CB3E8ADF4E6D17DBE /* xvmc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xvmc.h; path = "ffmpeg-ios-static-libs/include/libavcodec/xvmc.h"; sourceTree = "<group>"; };
+		4EA1281D02B223988904BF06B5119C80 /* intfloat_readwrite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfloat_readwrite.h; path = "ffmpeg-ios-static-libs/include/libavutil/intfloat_readwrite.h"; sourceTree = "<group>"; };
+		509A2B744E01FCCB0207629871A4BA12 /* vaapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vaapi.h; path = "ffmpeg-ios-static-libs/include/libavcodec/vaapi.h"; sourceTree = "<group>"; };
+		509B4493798E6DE9EFDFE9248A0B8540 /* mathematics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mathematics.h; path = "ffmpeg-ios-static-libs/include/libavutil/mathematics.h"; sourceTree = "<group>"; };
+		50BFA3D03CB52F50FD11117419BAA0F4 /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = "ffmpeg-ios-static-libs/include/openssl/dsa.h"; sourceTree = "<group>"; };
+		5158698408EE2D5F53C3A897CD11ECEF /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "ffmpeg-ios-static-libs/include/libavfilter/version.h"; sourceTree = "<group>"; };
+		527ADA03A5594248B2438EAE66DCE677 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = "ffmpeg-ios-static-libs/include/openssl/camellia.h"; sourceTree = "<group>"; };
+		52822F7AD73C8A1C004CDA7922A531FA /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = "ffmpeg-ios-static-libs/include/openssl/x509v3.h"; sourceTree = "<group>"; };
+		52B6BAAFE863855EAC0DB93A7CD392B8 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = "ffmpeg-ios-static-libs/include/openssl/des_old.h"; sourceTree = "<group>"; };
+		532F3A73ADCA2A959C06B878449E16BA /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		534D4D78E8166FA90DE3CFE140759D7D /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		542957F535F4B2220753F495F203FC6E /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		55FB3EE1A111899243189C26A1845ACF /* avconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avconfig.h; path = "ffmpeg-ios-static-libs/include/libavutil/avconfig.h"; sourceTree = "<group>"; };
+		55FCCDE8A696F2A33C908F371019C6C5 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		56F2BD38D4B5BACF049A99426EAF1C16 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		56FFD5AFAF865A33139B5DE617551AAD /* buffersrc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffersrc.h; path = "ffmpeg-ios-static-libs/include/libavfilter/buffersrc.h"; sourceTree = "<group>"; };
+		579361A063CE3C59DC90426319AE527F /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = "ffmpeg-ios-static-libs/include/openssl/ocsp.h"; sourceTree = "<group>"; };
+		59B19FC4665D8FA347E591009C34CD76 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "ffmpeg-ios-static-libs/include/libavcodec/version.h"; sourceTree = "<group>"; };
+		5C77272CC9B38F280E14989DF85C5A61 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		5CEE0B6AC803E18DFCEC3DE6BFB24B17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		62CB65413ADD3F238277FD418317BF2A /* mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mem.h; path = "ffmpeg-ios-static-libs/include/libavutil/mem.h"; sourceTree = "<group>"; };
+		6478B506B449DDC015EF1D123AF089B3 /* timestamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timestamp.h; path = "ffmpeg-ios-static-libs/include/libavutil/timestamp.h"; sourceTree = "<group>"; };
+		655D2BAFED7FDD18BADBD58328E4B991 /* frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame.h; path = "ffmpeg-ios-static-libs/include/libavutil/frame.h"; sourceTree = "<group>"; };
+		65DDC6F4E1E18F58E40CFF5FADC7EFD9 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = "ffmpeg-ios-static-libs/include/openssl/pkcs12.h"; sourceTree = "<group>"; };
+		69521AAAAF287DCFE484E3EDDA3FE243 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = "ffmpeg-ios-static-libs/include/openssl/ui_compat.h"; sourceTree = "<group>"; };
+		6BE1DFB550F7EBBF51EC1B29445E6913 /* murmur3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = murmur3.h; path = "ffmpeg-ios-static-libs/include/libavutil/murmur3.h"; sourceTree = "<group>"; };
+		6C69E7089BEDD8EA92DE372D962AFD79 /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = "ffmpeg-ios-static-libs/include/openssl/ssl3.h"; sourceTree = "<group>"; };
+		6D0413AB2713351E0BE577A603BBF9EB /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = "ffmpeg-ios-static-libs/include/openssl/objects.h"; sourceTree = "<group>"; };
+		6D8B7BF2A1E3AB2904E8505CDB37C56C /* Pods-fvlive_iosapp_infonam-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fvlive_iosapp_infonam-resources.sh"; sourceTree = "<group>"; };
+		6DFBE3D64608B7F474734014863ECB36 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		6E7F9B2774120699378DF8D792F50070 /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = "ffmpeg-ios-static-libs/include/openssl/idea.h"; sourceTree = "<group>"; };
+		6F0C753A8C05E9333737C8CDBF1F87D7 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = "ffmpeg-ios-static-libs/include/openssl/asn1t.h"; sourceTree = "<group>"; };
+		6F42BD12FC98E9A1F79814FCA53116D7 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		6F660CCD96162EFA4CC4A1D6D8C1BDE8 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = "ffmpeg-ios-static-libs/include/openssl/opensslconf.h"; sourceTree = "<group>"; };
+		720CCA4CFEE10B3B9ED73089134C7C9E /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = "ffmpeg-ios-static-libs/include/openssl/ebcdic.h"; sourceTree = "<group>"; };
+		7275B3BF85281C0F7C9FCB3631B0120E /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = "ffmpeg-ios-static-libs/include/openssl/x509.h"; sourceTree = "<group>"; };
+		760BE484003DA32757789910056987E4 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		767CE63F6574919DD5F48927315237B7 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		797EE9FA1558DA189FDD036C64B3DB36 /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = "ffmpeg-ios-static-libs/include/openssl/e_os2.h"; sourceTree = "<group>"; };
+		7984F6FBE2CB0F2BC0ED8B5FE28D0AE6 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		7A63B221745221C8505F31416B093E2C /* adler32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = adler32.h; path = "ffmpeg-ios-static-libs/include/libavutil/adler32.h"; sourceTree = "<group>"; };
+		7AB0CB272BC7C0C734C0CE1D653038E8 /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = error.h; path = "ffmpeg-ios-static-libs/include/libavutil/error.h"; sourceTree = "<group>"; };
+		7C24C60453F42CA1C16F0601B3B70C75 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = "ffmpeg-ios-static-libs/include/openssl/srtp.h"; sourceTree = "<group>"; };
+		7CCE3DD2EB1CBD1AEDB0E7571ABDCF63 /* ffversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffversion.h; path = "ffmpeg-ios-static-libs/include/libavutil/ffversion.h"; sourceTree = "<group>"; };
+		7FED71406361137316F8944042C49D40 /* Pods-fvlive_iosapp_infonam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fvlive_iosapp_infonam.debug.xcconfig"; sourceTree = "<group>"; };
+		8046DC6034351E49408762701A85B39F /* avstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avstring.h; path = "ffmpeg-ios-static-libs/include/libavutil/avstring.h"; sourceTree = "<group>"; };
+		80B3D8F83FB23D40ADB8C3231E53876D /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		84970D4F91664961EFD69B6214ADDED6 /* libavcodec.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavcodec.a; path = "ffmpeg-ios-static-libs/lib/libavcodec.a"; sourceTree = "<group>"; };
+		8512D703205CE40A8B21BA3E7A6DACB3 /* old_codec_ids.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = old_codec_ids.h; path = "ffmpeg-ios-static-libs/include/libavcodec/old_codec_ids.h"; sourceTree = "<group>"; };
+		868791BC968E06AF3884BFFE5A8A12F4 /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = "ffmpeg-ios-static-libs/include/openssl/obj_mac.h"; sourceTree = "<group>"; };
+		87DA4179E4C619990FA40A525707B1D3 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "ffmpeg-ios-static-libs/include/libavdevice/version.h"; sourceTree = "<group>"; };
+		889E763FBAAE0054C4643922AB8CF04E /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		8AD36404131B55DD35238A5C55DCE758 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = "ffmpeg-ios-static-libs/include/openssl/md4.h"; sourceTree = "<group>"; };
+		90DBA78E1B24D8C745A86C1DBC1AF0AB /* buffersink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffersink.h; path = "ffmpeg-ios-static-libs/include/libavfilter/buffersink.h"; sourceTree = "<group>"; };
+		912B5D2F392D8718793A3831459B3F0E /* avfft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfft.h; path = "ffmpeg-ios-static-libs/include/libavcodec/avfft.h"; sourceTree = "<group>"; };
+		912CF85E0800377E004D098E27C1C1BE /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = "ffmpeg-ios-static-libs/include/librtmp/log.h"; sourceTree = "<group>"; };
+		9695A8620F76B10903EE71E27E6C7079 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		97A772030B91C662C2600D8790C899F3 /* avfiltergraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfiltergraph.h; path = "ffmpeg-ios-static-libs/include/libavfilter/avfiltergraph.h"; sourceTree = "<group>"; };
+		9840B24687256CBE73BEFA0BD73505DC /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = "ffmpeg-ios-static-libs/include/openssl/pem.h"; sourceTree = "<group>"; };
+		9866E58AD67B3C7C30FCA7BAB4187288 /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = "ffmpeg-ios-static-libs/include/openssl/tls1.h"; sourceTree = "<group>"; };
+		9870DEF49AE32FD18EF28289AA76F86E /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = "ffmpeg-ios-static-libs/include/openssl/ssl2.h"; sourceTree = "<group>"; };
+		98B9DB5A33A553A05195B42560851F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		99362A36DC785AF4C07D0D0DC89FF9E1 /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = "ffmpeg-ios-static-libs/include/openssl/seed.h"; sourceTree = "<group>"; };
+		9A913FA9C5C48539AD8B4EE467515BD3 /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = "ffmpeg-ios-static-libs/include/openssl/safestack.h"; sourceTree = "<group>"; };
+		9C7593217EFDB54B814E57D8FED809EB /* avcodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avcodec.h; path = "ffmpeg-ios-static-libs/include/libavcodec/avcodec.h"; sourceTree = "<group>"; };
+		9CB2C72980429F828B8D013B24BA6430 /* swresample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swresample.h; path = "ffmpeg-ios-static-libs/include/libswresample/swresample.h"; sourceTree = "<group>"; };
+		9DE87B80D41198CFEADDCC8E08288DFA /* asrc_abuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asrc_abuffer.h; path = "ffmpeg-ios-static-libs/include/libavfilter/asrc_abuffer.h"; sourceTree = "<group>"; };
+		9E612E21F8270E70C07F1B56E4E0982A /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "ffmpeg-ios-static-libs/include/libswscale/version.h"; sourceTree = "<group>"; };
+		9E7B16A664F27441B0CEA437EA723454 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		9EC92512EA301588225EF033D6559610 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		9ED03DE07D19447F934054AFF00C28C3 /* vda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vda.h; path = "ffmpeg-ios-static-libs/include/libavcodec/vda.h"; sourceTree = "<group>"; };
+		9FBCB7058645A377FD3FD789A71B7D54 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = "ffmpeg-ios-static-libs/include/libavutil/blowfish.h"; sourceTree = "<group>"; };
+		A0189F3D35BDE5A0893B573F7AC833D4 /* eval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eval.h; path = "ffmpeg-ios-static-libs/include/libavutil/eval.h"; sourceTree = "<group>"; };
+		A299C5392531FE03D26756BFD6A8E988 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		A438E499EC92E88F72AB4AF7EB631CE7 /* time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = time.h; path = "ffmpeg-ios-static-libs/include/libavutil/time.h"; sourceTree = "<group>"; };
+		A621713057B33FF379D7BD006EFABAAB /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = "ffmpeg-ios-static-libs/include/openssl/cast.h"; sourceTree = "<group>"; };
+		A76B40579AA72A295D8C848120FFB567 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = "ffmpeg-ios-static-libs/include/openssl/bio.h"; sourceTree = "<group>"; };
+		A77EDFE92588FA811DA57629D43AD376 /* stereo3d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stereo3d.h; path = "ffmpeg-ios-static-libs/include/libavutil/stereo3d.h"; sourceTree = "<group>"; };
+		A7CB13A5B1494BE8E1CA71DED0E1E2FB /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = "ffmpeg-ios-static-libs/include/openssl/sha.h"; sourceTree = "<group>"; };
+		A80092274DE0055C47875FDC7415FF54 /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = "ffmpeg-ios-static-libs/include/openssl/asn1_mac.h"; sourceTree = "<group>"; };
+		A980E4A8DD5A2099A54B0D2943A78B64 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		AAC620D2E2694EFF13EF20E5B940CBD6 /* AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		AACC71392D756CEDE155E5A28D1F9C19 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		AB65420169DA7B4612AD1E367349F40A /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		AD5E5647AED55E9D2F4595D08D75A897 /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = "ffmpeg-ios-static-libs/include/openssl/opensslv.h"; sourceTree = "<group>"; };
+		AD997ECB84680830FD555EE9AEAE1DC4 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "ffmpeg-ios-static-libs/include/libavformat/version.h"; sourceTree = "<group>"; };
+		AEBAF78A00FD173DDB3C6343FC0E44DA /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		AFBEF6341D4CD9ECE2E4DA0A810BD8D0 /* avformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avformat.h; path = "ffmpeg-ios-static-libs/include/libavformat/avformat.h"; sourceTree = "<group>"; };
+		AFE60A511D538E0BF4D2933175A67BC9 /* old_pix_fmts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = old_pix_fmts.h; path = "ffmpeg-ios-static-libs/include/libavutil/old_pix_fmts.h"; sourceTree = "<group>"; };
+		B04530B0C6338DD653F74893F7890A37 /* random_seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = random_seed.h; path = "ffmpeg-ios-static-libs/include/libavutil/random_seed.h"; sourceTree = "<group>"; };
+		B27B3B5861ACC68D360C35342E8671DF /* xtea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xtea.h; path = "ffmpeg-ios-static-libs/include/libavutil/xtea.h"; sourceTree = "<group>"; };
+		B32190306D153094AAB4C47E94EADA9A /* audio_fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_fifo.h; path = "ffmpeg-ios-static-libs/include/libavutil/audio_fifo.h"; sourceTree = "<group>"; };
+		B4A9A06BD325CE7845006691DB396FAC /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = "ffmpeg-ios-static-libs/include/libavutil/hmac.h"; sourceTree = "<group>"; };
+		B74FAD3164181111D489F202CC9286FD /* rtmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rtmp.h; path = "ffmpeg-ios-static-libs/include/librtmp/rtmp.h"; sourceTree = "<group>"; };
+		B888157C1AD4F7802EB59C044AB01310 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = "ffmpeg-ios-static-libs/include/openssl/ecdsa.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCFF146FD2CFE433FA39FCE0B0F152DA /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = "ffmpeg-ios-static-libs/include/openssl/ui.h"; sourceTree = "<group>"; };
+		BCFF9396D48F9E5A8A42469F5F56C0AA /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = "ffmpeg-ios-static-libs/include/openssl/rsa.h"; sourceTree = "<group>"; };
+		BE1A6EA211C6D40F953E83859D7098AB /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = "ffmpeg-ios-static-libs/include/openssl/ts.h"; sourceTree = "<group>"; };
+		C07B60D4CCC4703742669091DA555863 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = "ffmpeg-ios-static-libs/include/openssl/conf.h"; sourceTree = "<group>"; };
+		C090F41C70818C399254EE9CC2396498 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		C0C2D52D19AFCDA2791C881884E4CE9C /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = "ffmpeg-ios-static-libs/include/openssl/cmac.h"; sourceTree = "<group>"; };
+		C0C80E46450BCA040AC0D55A679159E0 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		C2505F9469141816103EBD85B6989862 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C2961649AA69721CAF1BE575AA682A6B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C2A395AFE0CD2D25E4CB64901398362C /* file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file.h; path = "ffmpeg-ios-static-libs/include/libavutil/file.h"; sourceTree = "<group>"; };
+		C3B169B0515D911AF5DC9BD3436402D4 /* avfilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfilter.h; path = "ffmpeg-ios-static-libs/include/libavfilter/avfilter.h"; sourceTree = "<group>"; };
+		C57A46FE5543967B9EA63125079D5D75 /* macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = macros.h; path = "ffmpeg-ios-static-libs/include/libavutil/macros.h"; sourceTree = "<group>"; };
+		C63D07C95CF657A10C1CD47BB1DFD993 /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = "ffmpeg-ios-static-libs/include/openssl/pem2.h"; sourceTree = "<group>"; };
+		C66580090BF93D716C7AE3AEA2DB57D5 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		C8A90E83A019738EB1D8D1C75415DB15 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = "ffmpeg-ios-static-libs/include/openssl/crypto.h"; sourceTree = "<group>"; };
+		C90BD061F31F9A94107EAF6304EDCF9B /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = "ffmpeg-ios-static-libs/lib/libcrypto.a"; sourceTree = "<group>"; };
+		CAA03D882DA2BA1DCB518A1343E36EB0 /* parseutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parseutils.h; path = "ffmpeg-ios-static-libs/include/libavutil/parseutils.h"; sourceTree = "<group>"; };
+		CBCEACBD8C4B77BDD87960630C0E2185 /* opt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opt.h; path = "ffmpeg-ios-static-libs/include/libavutil/opt.h"; sourceTree = "<group>"; };
+		CFC91E8693F62657050CA13746EAC117 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = "ffmpeg-ios-static-libs/include/openssl/hmac.h"; sourceTree = "<group>"; };
+		D028E1340CB148DCD43C3B842E848132 /* libavfilter.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libavfilter.a; path = "ffmpeg-ios-static-libs/lib/libavfilter.a"; sourceTree = "<group>"; };
+		D10C3355DC991A6F341ABECEF4D6DADF /* sha512.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha512.h; path = "ffmpeg-ios-static-libs/include/libavutil/sha512.h"; sourceTree = "<group>"; };
+		D194479998663842D062377907D70894 /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = "ffmpeg-ios-static-libs/include/openssl/mdc2.h"; sourceTree = "<group>"; };
+		D1A5ECB259DACC9A7BF9DBFD799AF30A /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = "ffmpeg-ios-static-libs/include/openssl/srp.h"; sourceTree = "<group>"; };
+		D2788AC894B5E41298AEE5416BA28A41 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = "ffmpeg-ios-static-libs/include/openssl/dh.h"; sourceTree = "<group>"; };
+		D52F400832EEC4F41734997956C02167 /* downmix_info.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = downmix_info.h; path = "ffmpeg-ios-static-libs/include/libavutil/downmix_info.h"; sourceTree = "<group>"; };
+		D5360B07C1235A269C0DD6B1FFD06ECB /* attributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = attributes.h; path = "ffmpeg-ios-static-libs/include/libavutil/attributes.h"; sourceTree = "<group>"; };
+		D607E9733D7AE89D7F03CC1324920963 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		D6202242B0E6F66BF8DD495D924D28AB /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		DA30E0C05C88D331A123ED486F632AED /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = "ffmpeg-ios-static-libs/include/openssl/err.h"; sourceTree = "<group>"; };
+		DA7FE22ACC34080D532A86D36A94B4FE /* libswscale.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libswscale.a; path = "ffmpeg-ios-static-libs/lib/libswscale.a"; sourceTree = "<group>"; };
+		DB17FE5E12B6AB685FB64050AEA80567 /* pixdesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixdesc.h; path = "ffmpeg-ios-static-libs/include/libavutil/pixdesc.h"; sourceTree = "<group>"; };
+		DC253960D5F9E2C17C21954692B4B4DE /* lfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lfg.h; path = "ffmpeg-ios-static-libs/include/libavutil/lfg.h"; sourceTree = "<group>"; };
+		DFE64958384F0B2F4663EEFB9938B54E /* Pods-fvlive_iosapp_infonam-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fvlive_iosapp_infonam-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1572B52ACA26174C8FBF7FCE3BE4133 /* avcodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avcodec.h; path = "ffmpeg-ios-static-libs/include/libavfilter/avcodec.h"; sourceTree = "<group>"; };
+		E210276760E84655B281C5780F7EABDE /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = "ffmpeg-ios-static-libs/include/openssl/evp.h"; sourceTree = "<group>"; };
+		E306E08952862887123DF2C18AF50B50 /* imgutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgutils.h; path = "ffmpeg-ios-static-libs/include/libavutil/imgutils.h"; sourceTree = "<group>"; };
+		E31ABB28C48CFD7CBE44FC801BDDBC3F /* dxva2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dxva2.h; path = "ffmpeg-ios-static-libs/include/libavcodec/dxva2.h"; sourceTree = "<group>"; };
+		E5833EDFF258585220514064F40A96FB /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = "ffmpeg-ios-static-libs/include/openssl/bn.h"; sourceTree = "<group>"; };
+		E6D9799F154B4863C3D8E2BF900FB93C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		E6DF2CC15C1A17DC050F9A1A756D8A22 /* cpu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cpu.h; path = "ffmpeg-ios-static-libs/include/libavutil/cpu.h"; sourceTree = "<group>"; };
+		E78A3F82D8930F40FC81097714BDDAD9 /* rational.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rational.h; path = "ffmpeg-ios-static-libs/include/libavutil/rational.h"; sourceTree = "<group>"; };
+		E80287E5984E2E8184FAC06E7D5350A0 /* intfloat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfloat.h; path = "ffmpeg-ios-static-libs/include/libavutil/intfloat.h"; sourceTree = "<group>"; };
+		E9402B85600DAF1B31934968DEC52B2F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		EAF2E9F80239A0957C09409462C74BC7 /* bprint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bprint.h; path = "ffmpeg-ios-static-libs/include/libavutil/bprint.h"; sourceTree = "<group>"; };
+		EBEA45F68A5B73DA0DEBF2C4A055A96B /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = "ffmpeg-ios-static-libs/include/openssl/des.h"; sourceTree = "<group>"; };
+		ED0711B5CEF0DC56829919135D0B0506 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = "ffmpeg-ios-static-libs/include/openssl/ripemd.h"; sourceTree = "<group>"; };
+		EDEBEEE18E6EBDDEB6B4FDCD4039B029 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = "ffmpeg-ios-static-libs/include/openssl/pqueue.h"; sourceTree = "<group>"; };
+		EE8C83D2ABFB262B8FC0528A2AE57C63 /* channel_layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel_layout.h; path = "ffmpeg-ios-static-libs/include/libavutil/channel_layout.h"; sourceTree = "<group>"; };
+		EF4727CDC8961B605C9768FAB4BBB4D8 /* crc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crc.h; path = "ffmpeg-ios-static-libs/include/libavutil/crc.h"; sourceTree = "<group>"; };
+		F13AA0ACC14CF97CD81A801AAC7AC9E2 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = "ffmpeg-ios-static-libs/include/openssl/whrlpool.h"; sourceTree = "<group>"; };
+		F3B24FEF82A6DD1C0F3DC6920BC850F9 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = "ffmpeg-ios-static-libs/include/openssl/comp.h"; sourceTree = "<group>"; };
+		F428495C3B23F92D320F77D1CDA83A5B /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = "ffmpeg-ios-static-libs/include/openssl/asn1.h"; sourceTree = "<group>"; };
+		F67D0C3D7E362621BBA94EDC0CE702C8 /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = "ffmpeg-ios-static-libs/include/openssl/pkcs7.h"; sourceTree = "<group>"; };
+		F6CBE29B68E1003E24A08E9FB9813629 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "ffmpeg-ios-static-libs/include/libswresample/version.h"; sourceTree = "<group>"; };
+		F7D61C51625AF696EBD7313A6F6F5E02 /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = "ffmpeg-ios-static-libs/include/openssl/lhash.h"; sourceTree = "<group>"; };
+		F8F6FBCD38645951F3AB1D4D09611B1F /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = "ffmpeg-ios-static-libs/include/openssl/ossl_typ.h"; sourceTree = "<group>"; };
+		F9AC9518ECBD4CAE386EE1C14357419F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		F9DA1F85C47099679B8D7660B21F48D9 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "ffmpeg-ios-static-libs/include/openssl/buffer.h"; sourceTree = "<group>"; };
+		FA490C4378471CF0E00EF80E568C3E89 /* swscale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swscale.h; path = "ffmpeg-ios-static-libs/include/libswscale/swscale.h"; sourceTree = "<group>"; };
+		FCC07507E8C3D393E5FCBE5065650A39 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		FD333CD3AB6129E4B11CDDB92443DDA5 /* Pods-fvlive_iosapp_infonam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fvlive_iosapp_infonam.release.xcconfig"; sourceTree = "<group>"; };
+		FF08FE29B794EEEF00CFDEC7A3504F54 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4144F6763AF6B900CBD9442D18CC2DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8C6F8F4AA36408BF502566E49D113B /* CoreGraphics.framework in Frameworks */,
+				CBF5D841D5A7A8C4DBE08D2B3E35ACF8 /* Foundation.framework in Frameworks */,
+				E71E52204E889011F2463B005A1C07AA /* MobileCoreServices.framework in Frameworks */,
+				F7A41CF8B2CE9210CFBFB09BDF3D5C03 /* Security.framework in Frameworks */,
+				EB947310A86B109F690711DD720EC937 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857B6609121E55FC14061D5ED9CEB50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8691CBD72CB36D68749CC9AE30CBDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E0EF01B0D7635D99F226773B36B9697 /* Pods-fvlive_iosapp_infonam */ = {
+			isa = PBXGroup;
+			children = (
+				DFE64958384F0B2F4663EEFB9938B54E /* Pods-fvlive_iosapp_infonam-acknowledgements.markdown */,
+				2CD55603A739130CDB52B56F90C54403 /* Pods-fvlive_iosapp_infonam-acknowledgements.plist */,
+				03BC650E94F28D8C491DE78DB96330D3 /* Pods-fvlive_iosapp_infonam-dummy.m */,
+				6D8B7BF2A1E3AB2904E8505CDB37C56C /* Pods-fvlive_iosapp_infonam-resources.sh */,
+				7FED71406361137316F8944042C49D40 /* Pods-fvlive_iosapp_infonam.debug.xcconfig */,
+				FD333CD3AB6129E4B11CDDB92443DDA5 /* Pods-fvlive_iosapp_infonam.release.xcconfig */,
+			);
+			name = "Pods-fvlive_iosapp_infonam";
+			path = "Target Support Files/Pods-fvlive_iosapp_infonam";
+			sourceTree = "<group>";
+		};
+		0FC620BB1BB3C182E243C9AD9372E68E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E9E4DED3B8D8BE7DFA96C3B96A03ABB /* AFNetworking */,
+				FF7D4756D4B1AF24DDC8AA55148C0F00 /* FFmpeg */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B19723ACDB19AC8F2D5FC4E11A8D157 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				E9402B85600DAF1B31934968DEC52B2F /* AFHTTPRequestOperation.h */,
+				AACC71392D756CEDE155E5A28D1F9C19 /* AFHTTPRequestOperation.m */,
+				6DFBE3D64608B7F474734014863ECB36 /* AFHTTPRequestOperationManager.h */,
+				AB65420169DA7B4612AD1E367349F40A /* AFHTTPRequestOperationManager.m */,
+				41581EA8F01619C0A160FC9E6B253323 /* AFURLConnectionOperation.h */,
+				6F42BD12FC98E9A1F79814FCA53116D7 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		1E7597F14C55C796AAD79C4A0EB1A67D /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				FF08FE29B794EEEF00CFDEC7A3504F54 /* AFURLRequestSerialization.h */,
+				E6D9799F154B4863C3D8E2BF900FB93C /* AFURLRequestSerialization.m */,
+				C2505F9469141816103EBD85B6989862 /* AFURLResponseSerialization.h */,
+				29A82A582DAD2CB445ACD0D3F7A75CC3 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		1EEA3FEBE730FA8BF2A722102F4A773A /* precompiled */ = {
+			isa = PBXGroup;
+			children = (
+				7A63B221745221C8505F31416B093E2C /* adler32.h */,
+				37EEBF497DFDF4CC825C133AC3C79668 /* aes.h */,
+				434FDC7402BCEEDB00AB7B57104D836C /* aes.h */,
+				1016E8E7BF1E37201284FFE27C78A98E /* amf.h */,
+				F428495C3B23F92D320F77D1CDA83A5B /* asn1.h */,
+				A80092274DE0055C47875FDC7415FF54 /* asn1_mac.h */,
+				6F0C753A8C05E9333737C8CDBF1F87D7 /* asn1t.h */,
+				9DE87B80D41198CFEADDCC8E08288DFA /* asrc_abuffer.h */,
+				D5360B07C1235A269C0DD6B1FFD06ECB /* attributes.h */,
+				B32190306D153094AAB4C47E94EADA9A /* audio_fifo.h */,
+				2F37D4EB9E576762D61EF0EF46DE62F4 /* audioconvert.h */,
+				2EEFFB5FF7E8878CE0E5002F3BAC23C8 /* avassert.h */,
+				E1572B52ACA26174C8FBF7FCE3BE4133 /* avcodec.h */,
+				9C7593217EFDB54B814E57D8FED809EB /* avcodec.h */,
+				55FB3EE1A111899243189C26A1845ACF /* avconfig.h */,
+				33DCDD373AD9816E0425261BA9CC13A6 /* avdevice.h */,
+				912B5D2F392D8718793A3831459B3F0E /* avfft.h */,
+				C3B169B0515D911AF5DC9BD3436402D4 /* avfilter.h */,
+				97A772030B91C662C2600D8790C899F3 /* avfiltergraph.h */,
+				AFBEF6341D4CD9ECE2E4DA0A810BD8D0 /* avformat.h */,
+				216842F9711ABB5B50ED954F4E7AB0B9 /* avio.h */,
+				8046DC6034351E49408762701A85B39F /* avstring.h */,
+				2A92FF2D1E642BF7C5490BFF237A8725 /* avutil.h */,
+				1A646D148F3A068CA7987FB383ACBAC7 /* base64.h */,
+				A76B40579AA72A295D8C848120FFB567 /* bio.h */,
+				3DCD33CDB794BC67D0B2B1DBFE9B29CC /* blowfish.h */,
+				9FBCB7058645A377FD3FD789A71B7D54 /* blowfish.h */,
+				E5833EDFF258585220514064F40A96FB /* bn.h */,
+				EAF2E9F80239A0957C09409462C74BC7 /* bprint.h */,
+				0E6555FEF1D2B1680C58A5F58A4D59F4 /* bswap.h */,
+				F9DA1F85C47099679B8D7660B21F48D9 /* buffer.h */,
+				33362CC9190320AC53CF91637BAAE56B /* buffer.h */,
+				90DBA78E1B24D8C745A86C1DBC1AF0AB /* buffersink.h */,
+				56FFD5AFAF865A33139B5DE617551AAD /* buffersrc.h */,
+				527ADA03A5594248B2438EAE66DCE677 /* camellia.h */,
+				A621713057B33FF379D7BD006EFABAAB /* cast.h */,
+				EE8C83D2ABFB262B8FC0528A2AE57C63 /* channel_layout.h */,
+				C0C2D52D19AFCDA2791C881884E4CE9C /* cmac.h */,
+				1CD0FE891FB3CB9CD4F3276E0AA4CCC4 /* cms.h */,
+				2AA4BA489DB7C9A4B95C586D50AD3B3F /* common.h */,
+				F3B24FEF82A6DD1C0F3DC6920BC850F9 /* comp.h */,
+				C07B60D4CCC4703742669091DA555863 /* conf.h */,
+				4AA96FF76E7847F348822E9B05642F16 /* conf_api.h */,
+				E6DF2CC15C1A17DC050F9A1A756D8A22 /* cpu.h */,
+				EF4727CDC8961B605C9768FAB4BBB4D8 /* crc.h */,
+				C8A90E83A019738EB1D8D1C75415DB15 /* crypto.h */,
+				EBEA45F68A5B73DA0DEBF2C4A055A96B /* des.h */,
+				52B6BAAFE863855EAC0DB93A7CD392B8 /* des_old.h */,
+				D2788AC894B5E41298AEE5416BA28A41 /* dh.h */,
+				46FB9A842D23853B0C9CFA0D592E2553 /* dict.h */,
+				D52F400832EEC4F41734997956C02167 /* downmix_info.h */,
+				50BFA3D03CB52F50FD11117419BAA0F4 /* dsa.h */,
+				02C9D3F03FDF8C35414D28802585C12F /* dso.h */,
+				19629AD7502130489B8D8913D1955379 /* dtls1.h */,
+				E31ABB28C48CFD7CBE44FC801BDDBC3F /* dxva2.h */,
+				797EE9FA1558DA189FDD036C64B3DB36 /* e_os2.h */,
+				720CCA4CFEE10B3B9ED73089134C7C9E /* ebcdic.h */,
+				2AF54C326460027C731797860A069112 /* ec.h */,
+				2DEFED34F804DB55F2D4520866CBF829 /* ecdh.h */,
+				B888157C1AD4F7802EB59C044AB01310 /* ecdsa.h */,
+				1E5F3CC6946F0F1A74E392E458C53D33 /* engine.h */,
+				DA30E0C05C88D331A123ED486F632AED /* err.h */,
+				7AB0CB272BC7C0C734C0CE1D653038E8 /* error.h */,
+				A0189F3D35BDE5A0893B573F7AC833D4 /* eval.h */,
+				E210276760E84655B281C5780F7EABDE /* evp.h */,
+				7CCE3DD2EB1CBD1AEDB0E7571ABDCF63 /* ffversion.h */,
+				2664EA39AB4ED782A835842EEF35A456 /* fifo.h */,
+				C2A395AFE0CD2D25E4CB64901398362C /* file.h */,
+				655D2BAFED7FDD18BADBD58328E4B991 /* frame.h */,
+				CFC91E8693F62657050CA13746EAC117 /* hmac.h */,
+				B4A9A06BD325CE7845006691DB396FAC /* hmac.h */,
+				002CAACBE1A487D77AA66D17EDD80756 /* http.h */,
+				6E7F9B2774120699378DF8D792F50070 /* idea.h */,
+				E306E08952862887123DF2C18AF50B50 /* imgutils.h */,
+				E80287E5984E2E8184FAC06E7D5350A0 /* intfloat.h */,
+				4EA1281D02B223988904BF06B5119C80 /* intfloat_readwrite.h */,
+				2ED65A23D09677615441AA1695959599 /* intreadwrite.h */,
+				027CB1A96D8AC1B793B27F3D80E5CAA6 /* krb5_asn.h */,
+				0D030932AA2680FE5D3BAD761A79591F /* kssl.h */,
+				DC253960D5F9E2C17C21954692B4B4DE /* lfg.h */,
+				F7D61C51625AF696EBD7313A6F6F5E02 /* lhash.h */,
+				912CF85E0800377E004D098E27C1C1BE /* log.h */,
+				06B6203B512895CF96A67221C1CB7035 /* log.h */,
+				C57A46FE5543967B9EA63125079D5D75 /* macros.h */,
+				509B4493798E6DE9EFDFE9248A0B8540 /* mathematics.h */,
+				8AD36404131B55DD35238A5C55DCE758 /* md4.h */,
+				03AE29100B3175BF9353611805155BA6 /* md5.h */,
+				2021708024CF1A40F4F712613E9EADDA /* md5.h */,
+				D194479998663842D062377907D70894 /* mdc2.h */,
+				62CB65413ADD3F238277FD418317BF2A /* mem.h */,
+				43C7BAD69BB479A88B51CF395C8C7684 /* modes.h */,
+				6BE1DFB550F7EBBF51EC1B29445E6913 /* murmur3.h */,
+				868791BC968E06AF3884BFFE5A8A12F4 /* obj_mac.h */,
+				6D0413AB2713351E0BE577A603BBF9EB /* objects.h */,
+				579361A063CE3C59DC90426319AE527F /* ocsp.h */,
+				8512D703205CE40A8B21BA3E7A6DACB3 /* old_codec_ids.h */,
+				AFE60A511D538E0BF4D2933175A67BC9 /* old_pix_fmts.h */,
+				6F660CCD96162EFA4CC4A1D6D8C1BDE8 /* opensslconf.h */,
+				AD5E5647AED55E9D2F4595D08D75A897 /* opensslv.h */,
+				CBCEACBD8C4B77BDD87960630C0E2185 /* opt.h */,
+				F8F6FBCD38645951F3AB1D4D09611B1F /* ossl_typ.h */,
+				CAA03D882DA2BA1DCB518A1343E36EB0 /* parseutils.h */,
+				9840B24687256CBE73BEFA0BD73505DC /* pem.h */,
+				C63D07C95CF657A10C1CD47BB1DFD993 /* pem2.h */,
+				DB17FE5E12B6AB685FB64050AEA80567 /* pixdesc.h */,
+				236EA7F45E095846EC46DAF5E57F08ED /* pixfmt.h */,
+				65DDC6F4E1E18F58E40CFF5FADC7EFD9 /* pkcs12.h */,
+				F67D0C3D7E362621BBA94EDC0CE702C8 /* pkcs7.h */,
+				EDEBEEE18E6EBDDEB6B4FDCD4039B029 /* pqueue.h */,
+				14B2E0D7F8A52D5815A0DDB5F0A6C23E /* rand.h */,
+				B04530B0C6338DD653F74893F7890A37 /* random_seed.h */,
+				E78A3F82D8930F40FC81097714BDDAD9 /* rational.h */,
+				30483B1F26E7BE5AEA9A3E319C66214D /* rc2.h */,
+				0E7151436A0A3D537D8AC3EEB0DA8AE4 /* rc4.h */,
+				ED0711B5CEF0DC56829919135D0B0506 /* ripemd.h */,
+				34B8712A0714F9913C082E8D1B9CB4A0 /* ripemd.h */,
+				BCFF9396D48F9E5A8A42469F5F56C0AA /* rsa.h */,
+				B74FAD3164181111D489F202CC9286FD /* rtmp.h */,
+				9A913FA9C5C48539AD8B4EE467515BD3 /* safestack.h */,
+				052ECD4109C40097D0A7F0F50282EF85 /* samplefmt.h */,
+				99362A36DC785AF4C07D0D0DC89FF9E1 /* seed.h */,
+				A7CB13A5B1494BE8E1CA71DED0E1E2FB /* sha.h */,
+				07717CB2939C2C3C964C2AFFA27A2DE3 /* sha.h */,
+				D10C3355DC991A6F341ABECEF4D6DADF /* sha512.h */,
+				D1A5ECB259DACC9A7BF9DBFD799AF30A /* srp.h */,
+				7C24C60453F42CA1C16F0601B3B70C75 /* srtp.h */,
+				00F66605F62C18DF72498E7D7CECCC6C /* ssl.h */,
+				9870DEF49AE32FD18EF28289AA76F86E /* ssl2.h */,
+				37A1D46E177EB20F4E0FE79874226A94 /* ssl23.h */,
+				6C69E7089BEDD8EA92DE372D962AFD79 /* ssl3.h */,
+				3F082FEE4AB1668FA859F5C46B548398 /* stack.h */,
+				A77EDFE92588FA811DA57629D43AD376 /* stereo3d.h */,
+				9CB2C72980429F828B8D013B24BA6430 /* swresample.h */,
+				FA490C4378471CF0E00EF80E568C3E89 /* swscale.h */,
+				3B1FFD1E176A31455557D9424C632193 /* symhacks.h */,
+				A438E499EC92E88F72AB4AF7EB631CE7 /* time.h */,
+				2925EBB5E084924A0A2794959CD782CB /* timecode.h */,
+				6478B506B449DDC015EF1D123AF089B3 /* timestamp.h */,
+				9866E58AD67B3C7C30FCA7BAB4187288 /* tls1.h */,
+				BE1A6EA211C6D40F953E83859D7098AB /* ts.h */,
+				3E6A65CADA04E54A0A2B36C1FAE06418 /* txt_db.h */,
+				BCFF146FD2CFE433FA39FCE0B0F152DA /* ui.h */,
+				69521AAAAF287DCFE484E3EDDA3FE243 /* ui_compat.h */,
+				509A2B744E01FCCB0207629871A4BA12 /* vaapi.h */,
+				9ED03DE07D19447F934054AFF00C28C3 /* vda.h */,
+				2F49099262E9310EF140DEA042705221 /* vdpau.h */,
+				9E612E21F8270E70C07F1B56E4E0982A /* version.h */,
+				01524FCB9D18F380323C3DC2C530A515 /* version.h */,
+				87DA4179E4C619990FA40A525707B1D3 /* version.h */,
+				5158698408EE2D5F53C3A897CD11ECEF /* version.h */,
+				AD997ECB84680830FD555EE9AEAE1DC4 /* version.h */,
+				F6CBE29B68E1003E24A08E9FB9813629 /* version.h */,
+				59B19FC4665D8FA347E591009C34CD76 /* version.h */,
+				F13AA0ACC14CF97CD81A801AAC7AC9E2 /* whrlpool.h */,
+				7275B3BF85281C0F7C9FCB3631B0120E /* x509.h */,
+				221E697E19EF2493BD34CC2DD977D231 /* x509_vfy.h */,
+				52822F7AD73C8A1C004CDA7922A531FA /* x509v3.h */,
+				B27B3B5861ACC68D360C35342E8671DF /* xtea.h */,
+				4E9DA02287716C0CB3E8ADF4E6D17DBE /* xvmc.h */,
+				9B1E11CA30EE84A6B051CBC2BB6EAFDE /* Frameworks */,
+			);
+			name = precompiled;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D39F297F7432FCFAB7049A1566A95C1A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E9E4DED3B8D8BE7DFA96C3B96A03ABB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AEBAF78A00FD173DDB3C6343FC0E44DA /* AFNetworking.h */,
+				1B19723ACDB19AC8F2D5FC4E11A8D157 /* NSURLConnection */,
+				AFB32CE607A5C2B9DF3820C232D6DE1C /* NSURLSession */,
+				510A387AB49FEB304188A23D070A8126 /* Reachability */,
+				99AC2D64F565F0C8F4543C4E7A674D9D /* Security */,
+				1E7597F14C55C796AAD79C4A0EB1A67D /* Serialization */,
+				5A69AA018087BFDD1DA50F7CA40C290E /* Support Files */,
+				BF4F7B6B76347F39069671D62A5B6F1F /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		510A387AB49FEB304188A23D070A8126 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				767CE63F6574919DD5F48927315237B7 /* AFNetworkReachabilityManager.h */,
+				A980E4A8DD5A2099A54B0D2943A78B64 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		5A69AA018087BFDD1DA50F7CA40C290E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				534D4D78E8166FA90DE3CFE140759D7D /* AFNetworking.xcconfig */,
+				AAC620D2E2694EFF13EF20E5B940CBD6 /* AFNetworking-Private.xcconfig */,
+				9695A8620F76B10903EE71E27E6C7079 /* AFNetworking-dummy.m */,
+				C090F41C70818C399254EE9CC2396498 /* AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		7293999C5EE42CF01B5231955C442597 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E0EF01B0D7635D99F226773B36B9697 /* Pods-fvlive_iosapp_infonam */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				0FC620BB1BB3C182E243C9AD9372E68E /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				7293999C5EE42CF01B5231955C442597 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99AC2D64F565F0C8F4543C4E7A674D9D /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				33ECB1C6FFC01AEAC7CACD87B4504BDA /* AFSecurityPolicy.h */,
+				542957F535F4B2220753F495F203FC6E /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		9B1E11CA30EE84A6B051CBC2BB6EAFDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84970D4F91664961EFD69B6214ADDED6 /* libavcodec.a */,
+				0E43DC85D19B00B0D91850E28C203A3A /* libavdevice.a */,
+				D028E1340CB148DCD43C3B842E848132 /* libavfilter.a */,
+				2376386561792C37B3039FE438DC67E6 /* libavformat.a */,
+				0000D09BBCC58AE193BFA05C39873628 /* libavutil.a */,
+				C90BD061F31F9A94107EAF6304EDCF9B /* libcrypto.a */,
+				4C1F7A93297851A8D0B771BBC6607886 /* librtmp.a */,
+				0D78D0A0B706BC2250636BDE70211238 /* libssl.a */,
+				0FE51EBF40EB021252B4923A98AF39DF /* libswresample.a */,
+				DA7FE22ACC34080D532A86D36A94B4FE /* libswscale.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFB32CE607A5C2B9DF3820C232D6DE1C /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				2A7253B1284EBA7A8CC0B1955E5BD0E0 /* AFHTTPSessionManager.h */,
+				FCC07507E8C3D393E5FCBE5065650A39 /* AFHTTPSessionManager.m */,
+				2AEC68B80E5620C771497CCFE904EE66 /* AFURLSessionManager.h */,
+				2B37F43275604D6E1B0DD62D27B9E6A2 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		BF4F7B6B76347F39069671D62A5B6F1F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C66580090BF93D716C7AE3AEA2DB57D5 /* AFNetworkActivityIndicatorManager.h */,
+				D6202242B0E6F66BF8DD495D924D28AB /* AFNetworkActivityIndicatorManager.m */,
+				9EC92512EA301588225EF033D6559610 /* UIActivityIndicatorView+AFNetworking.h */,
+				5C77272CC9B38F280E14989DF85C5A61 /* UIActivityIndicatorView+AFNetworking.m */,
+				889E763FBAAE0054C4643922AB8CF04E /* UIAlertView+AFNetworking.h */,
+				80B3D8F83FB23D40ADB8C3231E53876D /* UIAlertView+AFNetworking.m */,
+				D607E9733D7AE89D7F03CC1324920963 /* UIButton+AFNetworking.h */,
+				9E7B16A664F27441B0CEA437EA723454 /* UIButton+AFNetworking.m */,
+				0B391EC34E1C62CC29F0AF9A868430D3 /* UIImage+AFNetworking.h */,
+				7984F6FBE2CB0F2BC0ED8B5FE28D0AE6 /* UIImageView+AFNetworking.h */,
+				2A0194005592F6DFD71B7E8AEB4068DA /* UIImageView+AFNetworking.m */,
+				55FCCDE8A696F2A33C908F371019C6C5 /* UIKit+AFNetworking.h */,
+				760BE484003DA32757789910056987E4 /* UIProgressView+AFNetworking.h */,
+				C0C80E46450BCA040AC0D55A679159E0 /* UIProgressView+AFNetworking.m */,
+				F9AC9518ECBD4CAE386EE1C14357419F /* UIRefreshControl+AFNetworking.h */,
+				2AD4A6DE57EBDEB9AFA5B69678C0F3C0 /* UIRefreshControl+AFNetworking.m */,
+				56F2BD38D4B5BACF049A99426EAF1C16 /* UIWebView+AFNetworking.h */,
+				532F3A73ADCA2A959C06B878449E16BA /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461257466A86D38009B90EAB6847E6FF /* libAFNetworking.a */,
+				2387662604B600ED6FB792D7DD0D7072 /* libPods-fvlive_iosapp_infonam.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39F297F7432FCFAB7049A1566A95C1A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE0B6AC803E18DFCEC3DE6BFB24B17 /* CoreGraphics.framework */,
+				98B9DB5A33A553A05195B42560851F3A /* Foundation.framework */,
+				A299C5392531FE03D26756BFD6A8E988 /* MobileCoreServices.framework */,
+				C2961649AA69721CAF1BE575AA682A6B /* Security.framework */,
+				1E702748C557166F10776113BAD326D4 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF7D4756D4B1AF24DDC8AA55148C0F00 /* FFmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA3FEBE730FA8BF2A722102F4A773A /* precompiled */,
+			);
+			path = FFmpeg;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C198B4FCD7C6638DA39CCD583562582C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3088AEF1792AAACEB9E93C89D84E4F3F /* AFHTTPRequestOperation.h in Headers */,
+				B2A6703C22C89FE8457C2B09FADA7D7E /* AFHTTPRequestOperationManager.h in Headers */,
+				77D2301763FF3F4B94887D7E16D135A4 /* AFHTTPSessionManager.h in Headers */,
+				56388D6377D472AB8E28AB75B36180D5 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				35594A68C16FB52C217D722732B3DEC3 /* AFNetworkReachabilityManager.h in Headers */,
+				A0C346F6C848507328DB45092365C439 /* AFNetworking.h in Headers */,
+				1B923E0B264E4A5E55DF0953609F08E1 /* AFSecurityPolicy.h in Headers */,
+				2D29588E6E43CF91CC349C51788AA4C4 /* AFURLConnectionOperation.h in Headers */,
+				BBC4D484AD445B0B337FBACA475E2B71 /* AFURLRequestSerialization.h in Headers */,
+				B67803171F8CDD50682B56FB46ADA076 /* AFURLResponseSerialization.h in Headers */,
+				6B6E5D8D859A5CAB3A51A869A9E6EB10 /* AFURLSessionManager.h in Headers */,
+				A18172FFF9016A25B367C24A94B0F9D9 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				C6600E18F74E4EA2D03BBC5D957C48A0 /* UIAlertView+AFNetworking.h in Headers */,
+				F7428FE312CB5132BA1FE8D1A78332AA /* UIButton+AFNetworking.h in Headers */,
+				CFC24F07656A1861DBC733A0DC954076 /* UIImage+AFNetworking.h in Headers */,
+				B1B526B93A6ACDD5D1048605416FA7F2 /* UIImageView+AFNetworking.h in Headers */,
+				FB69BECDC869994654373B62452F62FC /* UIKit+AFNetworking.h in Headers */,
+				C4C9F8CBB79DB112F9D440073BF2B496 /* UIProgressView+AFNetworking.h in Headers */,
+				26EA5CDC27BE1F63CFCD9B68094D1074 /* UIRefreshControl+AFNetworking.h in Headers */,
+				1FA68C3B1DD375CFB9E21306CA8BC562 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32C9416F63F7A68DA03CBF8B4CDE5AF9 /* Pods-fvlive_iosapp_infonam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CE0D529CEE648FFC32334DB915F0BFB /* Build configuration list for PBXNativeTarget "Pods-fvlive_iosapp_infonam" */;
+			buildPhases = (
+				480614FFC119F77CF634DF2C0DED9570 /* Sources */,
+				857B6609121E55FC14061D5ED9CEB50A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C452D027FFFE11B264617FBE7639F65D /* PBXTargetDependency */,
+			);
+			name = "Pods-fvlive_iosapp_infonam";
+			productName = "Pods-fvlive_iosapp_infonam";
+			productReference = 2387662604B600ED6FB792D7DD0D7072 /* libPods-fvlive_iosapp_infonam.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC5A67D9F55167B13ED8B36F07BE20C4 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8358363631C4E2828B8112CDCBBE006 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				2D73F26DA063C8A672BBC6E3682CF10B /* Sources */,
+				4144F6763AF6B900CBD9442D18CC2DEB /* Frameworks */,
+				C198B4FCD7C6638DA39CCD583562582C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 461257466A86D38009B90EAB6847E6FF /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5A67D9F55167B13ED8B36F07BE20C4 /* AFNetworking */,
+				32C9416F63F7A68DA03CBF8B4CDE5AF9 /* Pods-fvlive_iosapp_infonam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D73F26DA063C8A672BBC6E3682CF10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FE5B3A5A66E04A30663689A897F6AC /* AFHTTPRequestOperation.m in Sources */,
+				F79D45FA812A52B57598FDD429B70602 /* AFHTTPRequestOperationManager.m in Sources */,
+				DA7829DF9F62B5947F9779F7198F6DD9 /* AFHTTPSessionManager.m in Sources */,
+				8286806B7344F8DB64E97E3CE9C3F57E /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3FC11A60B484F86C50A5FF9C758E7F2D /* AFNetworkReachabilityManager.m in Sources */,
+				6FFDB519C3B3A48FCF0DEB75B6599445 /* AFNetworking-dummy.m in Sources */,
+				46EF218A668185FD9B308239619D94A6 /* AFSecurityPolicy.m in Sources */,
+				329E311EE5C98D3D1EC64FC3CE24B2B8 /* AFURLConnectionOperation.m in Sources */,
+				F0A69ED0C6BBF6D9980D460025237F93 /* AFURLRequestSerialization.m in Sources */,
+				5FFA4EA8800E2E512BB311D980666863 /* AFURLResponseSerialization.m in Sources */,
+				2D89AB720882ED066D28AB540AE3D67A /* AFURLSessionManager.m in Sources */,
+				1ADC6BE964858456582736B0A883E9C5 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				230F3629B9F6D3EF05AB4B6788687FC5 /* UIAlertView+AFNetworking.m in Sources */,
+				8C2E9480E612EB624F299136A04DE6CC /* UIButton+AFNetworking.m in Sources */,
+				D73BFBE43FEA6EC94DECAAFFC62B7B6A /* UIImageView+AFNetworking.m in Sources */,
+				EE872E012F49F5A3B979F457C86E5AE0 /* UIProgressView+AFNetworking.m in Sources */,
+				F9443C82F3A63E7BFD5CA3C9615FBC07 /* UIRefreshControl+AFNetworking.m in Sources */,
+				B0CD151F384C18E39682D74C098042EC /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480614FFC119F77CF634DF2C0DED9570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74866694C772BEA4E50186B9697A403C /* Pods-fvlive_iosapp_infonam-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C452D027FFFE11B264617FBE7639F65D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = DC5A67D9F55167B13ED8B36F07BE20C4 /* AFNetworking */;
+			targetProxy = 4C2987B5544C2EBDBB90849278FF7E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1187C296DB4A92798595008C598E1E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FED71406361137316F8944042C49D40 /* Pods-fvlive_iosapp_infonam.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E6CBDA603E7C60FF1D6E331C4232D656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD333CD3AB6129E4B11CDDB92443DDA5 /* Pods-fvlive_iosapp_infonam.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC81B751AFDE3547F0F8E8CD3A79DB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC620D2E2694EFF13EF20E5B940CBD6 /* AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F78D4E7735C27405FC62C7FC8968E5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC620D2E2694EFF13EF20E5B940CBD6 /* AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CE0D529CEE648FFC32334DB915F0BFB /* Build configuration list for PBXNativeTarget "Pods-fvlive_iosapp_infonam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1187C296DB4A92798595008C598E1E80 /* Debug */,
+				E6CBDA603E7C60FF1D6E331C4232D656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8358363631C4E2828B8112CDCBBE006 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC81B751AFDE3547F0F8E8CD3A79DB18 /* Debug */,
+				F78D4E7735C27405FC62C7FC8968E5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

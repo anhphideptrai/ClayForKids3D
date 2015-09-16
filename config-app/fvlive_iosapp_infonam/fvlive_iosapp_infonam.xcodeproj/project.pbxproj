@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B264D9341BA81FC0002B445F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B264D9331BA81FC0002B445F /* main.m */; };
+		B264D9371BA81FC0002B445F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B264D9361BA81FC0002B445F /* AppDelegate.m */; };
+		B264D93A1BA81FC0002B445F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B264D9391BA81FC0002B445F /* ViewController.m */; };
+		B264D93D1BA81FC0002B445F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B264D93B1BA81FC0002B445F /* Main.storyboard */; };
+		B264D93F1BA81FC0002B445F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B264D93E1BA81FC0002B445F /* Images.xcassets */; };
+		B264D9421BA81FC1002B445F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B264D9401BA81FC1002B445F /* LaunchScreen.xib */; };
+		B264D94E1BA81FC1002B445F /* fvlive_iosapp_infonamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B264D94D1BA81FC1002B445F /* fvlive_iosapp_infonamTests.m */; };
+		B264D95A1BA822FB002B445F /* VideoFrameExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = B264D9581BA822FB002B445F /* VideoFrameExtractor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B264D95E1BA82327002B445F /* VideoEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = B264D95D1BA82327002B445F /* VideoEntry.m */; };
+		B264D9651BA82373002B445F /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = B264D9631BA82373002B445F /* WebService.m */; };
+		B264D96C1BA82B31002B445F /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B264D96B1BA82B31002B445F /* Utilities.m */; };
+		B264D9701BA8C93B002B445F /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B264D96F1BA8C93B002B445F /* DownloadManager.m */; };
+		EE1BFE922AEEF0CDC168774C /* libPods-fvlive_iosapp_infonam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F95AE2C6F2825012093D4396 /* libPods-fvlive_iosapp_infonam.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B264D9481BA81FC1002B445F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B264D9261BA81FC0002B445F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B264D92D1BA81FC0002B445F;
+			remoteInfo = fvlive_iosapp_infonam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38FF2FBB3AAE6792C790AA6A /* Pods-fvlive_iosapp_infonam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fvlive_iosapp_infonam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fvlive_iosapp_infonam/Pods-fvlive_iosapp_infonam.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0C9B5E62141AEE706436BA /* Pods-fvlive_iosapp_infonam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fvlive_iosapp_infonam.release.xcconfig"; path = "Pods/Target Support Files/Pods-fvlive_iosapp_infonam/Pods-fvlive_iosapp_infonam.release.xcconfig"; sourceTree = "<group>"; };
+		B264D92E1BA81FC0002B445F /* fvlive_iosapp_infonam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fvlive_iosapp_infonam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B264D9321BA81FC0002B445F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B264D9331BA81FC0002B445F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B264D9351BA81FC0002B445F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B264D9361BA81FC0002B445F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B264D9381BA81FC0002B445F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B264D9391BA81FC0002B445F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B264D93C1BA81FC0002B445F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B264D93E1BA81FC0002B445F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B264D9411BA81FC1002B445F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B264D9471BA81FC1002B445F /* fvlive_iosapp_infonamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fvlive_iosapp_infonamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B264D94C1BA81FC1002B445F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B264D94D1BA81FC1002B445F /* fvlive_iosapp_infonamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fvlive_iosapp_infonamTests.m; sourceTree = "<group>"; };
+		B264D9581BA822FB002B445F /* VideoFrameExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoFrameExtractor.m; path = VideoFrameExtractor/VideoFrameExtractor.m; sourceTree = "<group>"; };
+		B264D9591BA822FB002B445F /* VideoFrameExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoFrameExtractor.h; path = VideoFrameExtractor/VideoFrameExtractor.h; sourceTree = "<group>"; };
+		B264D95C1BA82327002B445F /* VideoEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoEntry.h; path = Entry/VideoEntry.h; sourceTree = "<group>"; };
+		B264D95D1BA82327002B445F /* VideoEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoEntry.m; path = Entry/VideoEntry.m; sourceTree = "<group>"; };
+		B264D9621BA82373002B445F /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebService.h; path = API/WebService.h; sourceTree = "<group>"; };
+		B264D9631BA82373002B445F /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebService.m; path = API/WebService.m; sourceTree = "<group>"; };
+		B264D96A1BA82B31002B445F /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = Common/Utilities.h; sourceTree = "<group>"; };
+		B264D96B1BA82B31002B445F /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = Common/Utilities.m; sourceTree = "<group>"; };
+		B264D96D1BA8C007002B445F /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Common/Constants.h; sourceTree = "<group>"; };
+		B264D96E1BA8C93B002B445F /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManager.h; path = API/DownloadManager.h; sourceTree = "<group>"; };
+		B264D96F1BA8C93B002B445F /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadManager.m; path = API/DownloadManager.m; sourceTree = "<group>"; };
+		F95AE2C6F2825012093D4396 /* libPods-fvlive_iosapp_infonam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-fvlive_iosapp_infonam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B264D92B1BA81FC0002B445F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1BFE922AEEF0CDC168774C /* libPods-fvlive_iosapp_infonam.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B264D9441BA81FC1002B445F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7FF96AA11ABE389F8FDBB31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F95AE2C6F2825012093D4396 /* libPods-fvlive_iosapp_infonam.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B264D9251BA81FC0002B445F = {
+			isa = PBXGroup;
+			children = (
+				B264D9301BA81FC0002B445F /* fvlive_iosapp_infonam */,
+				B264D94A1BA81FC1002B445F /* fvlive_iosapp_infonamTests */,
+				B264D92F1BA81FC0002B445F /* Products */,
+				FE1D14D21388060D857231F5 /* Pods */,
+				A7FF96AA11ABE389F8FDBB31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B264D92F1BA81FC0002B445F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B264D92E1BA81FC0002B445F /* fvlive_iosapp_infonam.app */,
+				B264D9471BA81FC1002B445F /* fvlive_iosapp_infonamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B264D9301BA81FC0002B445F /* fvlive_iosapp_infonam */ = {
+			isa = PBXGroup;
+			children = (
+				B264D9691BA82B17002B445F /* Common */,
+				B264D95F1BA8232B002B445F /* API */,
+				B264D95B1BA82300002B445F /* Entry */,
+				B264D9571BA822EB002B445F /* VideoFrameExtractor */,
+				B264D9351BA81FC0002B445F /* AppDelegate.h */,
+				B264D9361BA81FC0002B445F /* AppDelegate.m */,
+				B264D9381BA81FC0002B445F /* ViewController.h */,
+				B264D9391BA81FC0002B445F /* ViewController.m */,
+				B264D93B1BA81FC0002B445F /* Main.storyboard */,
+				B264D93E1BA81FC0002B445F /* Images.xcassets */,
+				B264D9401BA81FC1002B445F /* LaunchScreen.xib */,
+				B264D9311BA81FC0002B445F /* Supporting Files */,
+			);
+			path = fvlive_iosapp_infonam;
+			sourceTree = "<group>";
+		};
+		B264D9311BA81FC0002B445F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B264D9321BA81FC0002B445F /* Info.plist */,
+				B264D9331BA81FC0002B445F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B264D94A1BA81FC1002B445F /* fvlive_iosapp_infonamTests */ = {
+			isa = PBXGroup;
+			children = (
+				B264D94D1BA81FC1002B445F /* fvlive_iosapp_infonamTests.m */,
+				B264D94B1BA81FC1002B445F /* Supporting Files */,
+			);
+			path = fvlive_iosapp_infonamTests;
+			sourceTree = "<group>";
+		};
+		B264D94B1BA81FC1002B445F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B264D94C1BA81FC1002B445F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B264D9571BA822EB002B445F /* VideoFrameExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				B264D9591BA822FB002B445F /* VideoFrameExtractor.h */,
+				B264D9581BA822FB002B445F /* VideoFrameExtractor.m */,
+			);
+			name = VideoFrameExtractor;
+			sourceTree = "<group>";
+		};
+		B264D95B1BA82300002B445F /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				B264D95C1BA82327002B445F /* VideoEntry.h */,
+				B264D95D1BA82327002B445F /* VideoEntry.m */,
+			);
+			name = Entry;
+			sourceTree = "<group>";
+		};
+		B264D95F1BA8232B002B445F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B264D96E1BA8C93B002B445F /* DownloadManager.h */,
+				B264D96F1BA8C93B002B445F /* DownloadManager.m */,
+				B264D9621BA82373002B445F /* WebService.h */,
+				B264D9631BA82373002B445F /* WebService.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		B264D9691BA82B17002B445F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B264D96A1BA82B31002B445F /* Utilities.h */,
+				B264D96B1BA82B31002B445F /* Utilities.m */,
+				B264D96D1BA8C007002B445F /* Constants.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		FE1D14D21388060D857231F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38FF2FBB3AAE6792C790AA6A /* Pods-fvlive_iosapp_infonam.debug.xcconfig */,
+				8A0C9B5E62141AEE706436BA /* Pods-fvlive_iosapp_infonam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B264D92D1BA81FC0002B445F /* fvlive_iosapp_infonam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B264D9511BA81FC1002B445F /* Build configuration list for PBXNativeTarget "fvlive_iosapp_infonam" */;
+			buildPhases = (
+				466B8D8E155C2542A772D943 /* Check Pods Manifest.lock */,
+				B264D92A1BA81FC0002B445F /* Sources */,
+				B264D92B1BA81FC0002B445F /* Frameworks */,
+				B264D92C1BA81FC0002B445F /* Resources */,
+				598922B2FF2B0FAD62135FFA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fvlive_iosapp_infonam;
+			productName = fvlive_iosapp_infonam;
+			productReference = B264D92E1BA81FC0002B445F /* fvlive_iosapp_infonam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B264D9461BA81FC1002B445F /* fvlive_iosapp_infonamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B264D9541BA81FC1002B445F /* Build configuration list for PBXNativeTarget "fvlive_iosapp_infonamTests" */;
+			buildPhases = (
+				B264D9431BA81FC1002B445F /* Sources */,
+				B264D9441BA81FC1002B445F /* Frameworks */,
+				B264D9451BA81FC1002B445F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B264D9491BA81FC1002B445F /* PBXTargetDependency */,
+			);
+			name = fvlive_iosapp_infonamTests;
+			productName = fvlive_iosapp_infonamTests;
+			productReference = B264D9471BA81FC1002B445F /* fvlive_iosapp_infonamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B264D9261BA81FC0002B445F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "INFONAM INC";
+				TargetAttributes = {
+					B264D92D1BA81FC0002B445F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B264D9461BA81FC1002B445F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B264D92D1BA81FC0002B445F;
+					};
+				};
+			};
+			buildConfigurationList = B264D9291BA81FC0002B445F /* Build configuration list for PBXProject "fvlive_iosapp_infonam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B264D9251BA81FC0002B445F;
+			productRefGroup = B264D92F1BA81FC0002B445F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B264D92D1BA81FC0002B445F /* fvlive_iosapp_infonam */,
+				B264D9461BA81FC1002B445F /* fvlive_iosapp_infonamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B264D92C1BA81FC0002B445F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B264D93D1BA81FC0002B445F /* Main.storyboard in Resources */,
+				B264D9421BA81FC1002B445F /* LaunchScreen.xib in Resources */,
+				B264D93F1BA81FC0002B445F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B264D9451BA81FC1002B445F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		466B8D8E155C2542A772D943 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		598922B2FF2B0FAD62135FFA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fvlive_iosapp_infonam/Pods-fvlive_iosapp_infonam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B264D92A1BA81FC0002B445F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B264D9651BA82373002B445F /* WebService.m in Sources */,
+				B264D93A1BA81FC0002B445F /* ViewController.m in Sources */,
+				B264D9371BA81FC0002B445F /* AppDelegate.m in Sources */,
+				B264D95A1BA822FB002B445F /* VideoFrameExtractor.m in Sources */,
+				B264D95E1BA82327002B445F /* VideoEntry.m in Sources */,
+				B264D96C1BA82B31002B445F /* Utilities.m in Sources */,
+				B264D9341BA81FC0002B445F /* main.m in Sources */,
+				B264D9701BA8C93B002B445F /* DownloadManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B264D9431BA81FC1002B445F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B264D94E1BA81FC1002B445F /* fvlive_iosapp_infonamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B264D9491BA81FC1002B445F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B264D92D1BA81FC0002B445F /* fvlive_iosapp_infonam */;
+			targetProxy = B264D9481BA81FC1002B445F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B264D93B1BA81FC0002B445F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B264D93C1BA81FC0002B445F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B264D9401BA81FC1002B445F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B264D9411BA81FC1002B445F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B264D94F1BA81FC1002B445F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B264D9501BA81FC1002B445F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B264D9521BA81FC1002B445F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38FF2FBB3AAE6792C790AA6A /* Pods-fvlive_iosapp_infonam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fvlive_iosapp_infonam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B264D9531BA81FC1002B445F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0C9B5E62141AEE706436BA /* Pods-fvlive_iosapp_infonam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = fvlive_iosapp_infonam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B264D9551BA81FC1002B445F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fvlive_iosapp_infonamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fvlive_iosapp_infonam.app/fvlive_iosapp_infonam";
+			};
+			name = Debug;
+		};
+		B264D9561BA81FC1002B445F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = fvlive_iosapp_infonamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fvlive_iosapp_infonam.app/fvlive_iosapp_infonam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B264D9291BA81FC0002B445F /* Build configuration list for PBXProject "fvlive_iosapp_infonam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B264D94F1BA81FC1002B445F /* Debug */,
+				B264D9501BA81FC1002B445F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B264D9511BA81FC1002B445F /* Build configuration list for PBXNativeTarget "fvlive_iosapp_infonam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B264D9521BA81FC1002B445F /* Debug */,
+				B264D9531BA81FC1002B445F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B264D9541BA81FC1002B445F /* Build configuration list for PBXNativeTarget "fvlive_iosapp_infonamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B264D9551BA81FC1002B445F /* Debug */,
+				B264D9561BA81FC1002B445F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B264D9261BA81FC0002B445F /* Project object */;
+}
